@@ -402,9 +402,10 @@ header.d-header .d-header-icons .icon {
 }
 
 // list controls
-.list-controls ,navigation-container #navigation-bar .active a {
+.nav-pills > li.active > a, .nav-pills > li > a.active {
   position: relative;
   border: none;
+  overflow: hidden;
   &::after {
     content: '';
     background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);

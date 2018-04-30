@@ -5,10 +5,10 @@
   "color_schemes": {
     "Age of Empires": {
       "primary": "3498db",
-      "secondary": "442504",
+      "secondary": "ff1493",
       "tertiary": "f4d03f ",
       "quaternary": "2ecc71 ",
-      "header_background": "ff1493",
+      "header_background": "ffffff",
       "header_primary": "e74c3c ",
       "highlight": "7d3c98 ",
       "danger": "7b241c ",

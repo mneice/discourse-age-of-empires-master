@@ -402,11 +402,18 @@ header.d-header .d-header-icons .icon {
 }
 
 // list controls
-.list-controls ,navigation-container #navigation-bar .active::after {
-  content: '';
-  background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);
-  height: 5px;
-  width: 100%;
+.list-controls ,navigation-container #navigation-bar .active a {
+  position: relative;
+  border: none;
+  &::after {
+    content: '';
+    background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+  }
 }
 
 

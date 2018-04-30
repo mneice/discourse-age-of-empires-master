@@ -316,6 +316,19 @@ button#new-account-link {
 html {
   background-color: #442504 !important;
   background-image: url($bkg-rock-01);
-  background-repeat: repeat;
   background-position: top center;
+  background-repeat: repeat;
+}
+
+.header__top {
+  background-color: #000000 !important;
+  background-image: url($header-marble);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .d-icon {
+    color: #e5d194 !important;
+  }
+
 }

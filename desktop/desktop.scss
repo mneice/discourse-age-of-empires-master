@@ -402,6 +402,10 @@ header.d-header .d-header-icons .icon {
 }
 
 // list controls
+.nav-pills > li > a {
+  padding: 6px 12px 11px 12px;
+}
+
 .nav-pills > li.active > a, .nav-pills > li > a.active {
   position: relative;
   border: none;

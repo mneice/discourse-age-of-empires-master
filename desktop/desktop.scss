@@ -325,27 +325,9 @@ button#new-account-link {
   }
 }
 
-
-
-
 // *******************************************************
 // CUSTOM STYLING OUTSIDE OF DEFAULT SETTINGS
 // *******************************************************
-
-/*
-
-$bkg-rock-01
-$header-logo
-$header-marble
-$header-logo: header-logo.png
-$texture-papyrus: texture-papyrus.jpg
-$bkg-marble: bkg-marble.jpg
-$bkg-rock-01: background_rock_repeat.jpg
-$header-marble: header-marble.jpg
-$footer-logo: footer-logo.png
-$section-divider-default: section-divider-default.png
-
-*/
 
 // page background
 html {
@@ -372,13 +354,13 @@ header.d-header {
     width: 100%;
   }
 
-
 }
 
 // header icons
 header.d-header .d-header-icons .icon {
   color: #e5d194 !important;
 }
+
 
 // boxed area background
 .boxed.white {
@@ -389,6 +371,37 @@ header.d-header .d-header-icons .icon {
   border: 2px solid #2d2a23;
   box-shadow: 0 6px 15px 0 rgba(0,0,0,.4);
 }
+
+#create-topic.btn-default {
+  border: 2px solid #221b16;
+  background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);
+  color: #000000;
+}
+
+
+// *******************************************************
+// STYLING for CUSTOM HTML
+// *******************************************************
+
+/*
+
+$bkg-rock-01
+$header-logo
+$header-marble
+$header-logo: header-logo.png
+$texture-papyrus: texture-papyrus.jpg
+$bkg-marble: bkg-marble.jpg
+$bkg-rock-01: background_rock_repeat.jpg
+$header-marble: header-marble.jpg
+$footer-logo: footer-logo.png
+$section-divider-default: section-divider-default.png
+
+*/
+
+
+
+
+
 
 
 // footer.html

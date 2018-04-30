@@ -26,8 +26,8 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="340" column="0" lean-forward="true" selection-start-line="340" selection-start-column="0" selection-end-line="340" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/colors.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="65" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -64,9 +64,11 @@
       <find>&quot;</find>
       <find>secondary</find>
       <find>ff1493</find>
+      <find>$love</find>
     </findStrings>
     <replaceStrings>
       <replace>$</replace>
+      <replace>$aoe_love</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -77,6 +79,7 @@
       <list>
         <option value="$PROJECT_DIR$/colors.scss" />
         <option value="$PROJECT_DIR$/about.json" />
+        <option value="$PROJECT_DIR$/desktop_template.scss" />
         <option value="$PROJECT_DIR$/desktop/desktop.scss" />
       </list>
     </option>
@@ -152,12 +155,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525107950815</updated>
-      <workItem from="1525107952063" duration="9906000" />
+      <workItem from="1525107952063" duration="10638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9906000" />
+    <option name="totallyTimeSpent" value="10638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -218,18 +221,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/desktop_template.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="311" column="0" lean-forward="true" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding>
+            <element signature="e#54#115#0" expanded="false" />
+            <element signature="e#193#244#0" expanded="false" />
+            <element signature="e#344#375#0" expanded="false" />
+            <element signature="e#531#781#0" expanded="false" />
+            <element signature="e#1041#1385#0" expanded="false" />
+            <element signature="e#1463#1583#0" expanded="false" />
+            <element signature="e#1660#1697#0" expanded="false" />
+            <element signature="e#1766#1880#0" expanded="false" />
+            <element signature="e#1922#2330#0" expanded="false" />
+            <element signature="e#2371#2464#0" expanded="false" />
+            <element signature="e#2532#2554#0" expanded="false" />
+            <element signature="e#2621#2647#0" expanded="false" />
+            <element signature="e#2680#2961#0" expanded="false" />
+            <element signature="e#3040#3329#0" expanded="false" />
+            <element signature="e#3487#3758#0" expanded="false" />
+            <element signature="e#3843#3870#0" expanded="false" />
+            <element signature="e#3938#4244#0" expanded="false" />
+            <element signature="e#4257#4308#0" expanded="false" />
+            <element signature="e#4364#4391#0" expanded="false" />
+            <element signature="e#4435#5335#0" expanded="false" />
+            <element signature="e#5372#5393#0" expanded="false" />
+            <element signature="e#5427#5488#0" expanded="false" />
+            <element signature="e#5528#5555#0" expanded="false" />
+            <element signature="e#5583#6441#0" expanded="false" />
+            <element signature="e#6509#6551#0" expanded="false" />
+            <element signature="e#6654#6784#0" expanded="false" />
+            <element signature="e#6866#6969#0" expanded="false" />
+            <element signature="e#7010#7388#0" expanded="false" />
+            <element signature="e#7390#7565#0" expanded="false" />
+            <element signature="e#7586#7611#0" expanded="false" />
+            <element signature="e#7635#8667#0" expanded="false" />
+            <element signature="e#8752#8997#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="65" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="340" column="0" lean-forward="true" selection-start-line="340" selection-start-column="0" selection-end-line="340" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>

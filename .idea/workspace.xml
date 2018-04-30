@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/about.json" afterPath="$PROJECT_DIR$/about.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/desktop/desktop.scss" afterPath="$PROJECT_DIR$/desktop/desktop.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,17 +24,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="343" column="33" lean-forward="false" selection-start-line="343" selection-start-column="33" selection-end-line="343" selection-end-column="33" />
+            <state relative-caret-position="606">
+              <caret line="345" column="42" lean-forward="false" selection-start-line="345" selection-start-column="42" selection-end-line="345" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -46,8 +47,8 @@
       <file leaf-file-name="colors.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -76,8 +77,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/colors.scss" />
-        <option value="$PROJECT_DIR$/desktop/desktop.scss" />
         <option value="$PROJECT_DIR$/about.json" />
+        <option value="$PROJECT_DIR$/desktop/desktop.scss" />
       </list>
     </option>
   </component>
@@ -152,12 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525107950815</updated>
-      <workItem from="1525107952063" duration="9506000" />
+      <workItem from="1525107952063" duration="9689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9506000" />
+    <option name="totallyTimeSpent" value="9689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -210,26 +211,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="343" column="33" lean-forward="false" selection-start-line="343" selection-start-column="33" selection-end-line="343" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="606">
+          <caret line="345" column="42" lean-forward="false" selection-start-line="345" selection-start-column="42" selection-end-line="345" selection-end-column="42" />
           <folding />
         </state>
       </provider>

@@ -4,11 +4,11 @@
   "license_url": "http://www.ageofempires.com/discourse/theme/LICENSE.txt",
   "color_schemes": {
     "Age of Empires": {
-      "primary": "ff1493",
+      "primary": "3498db",
       "secondary": "442504",
       "tertiary": "f4d03f ",
       "quaternary": "2ecc71 ",
-      "header_background": "221b16",
+      "header_background": "ff1493",
       "header_primary": "e74c3c ",
       "highlight": "7d3c98 ",
       "danger": "7b241c ",

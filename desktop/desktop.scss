@@ -308,3 +308,13 @@ button#new-account-link {
     }
   }
 }
+
+
+// *******************************************************
+// CUSTOM STYLING OUTSIDE OF DEFAULT SETTINGS
+// *******************************************************
+section#main {
+  background-image: url($bkg_01);
+  background-repeat: repeat;
+  background-position: top center;
+}

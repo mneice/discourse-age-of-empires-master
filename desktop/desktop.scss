@@ -327,7 +327,7 @@ html {
 header.d-header {
 
   background-color: #000000 !important;
-  background-image: url(https://devdiscourse.microsoftstudios.com/uploads/default/original/1X/824996744e1f50f304b81d2652303403ed489bdc.jpg);
+  background-image: url($header-marble);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -336,5 +336,5 @@ header.d-header {
 
 // header icons
 header.d-header .d-header-icons .icon {
-  color: #e5d194; !important;
+  color: #e5d194 !important;
 }

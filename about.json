@@ -9,24 +9,11 @@
       "tertiary": "f4d03f",
       "quaternary": "2ecc71",
       "header_background": "000000",
-      "header_primary": "e74c3c",
+      "header_primary": "e5d194",
       "highlight": "7d3c98",
       "danger": "7b241c",
       "success": "1d8348",
-      "love": "fadbd8",
-      "page_background": " #7b241c"
-    },
-    "Material Dark": {
-      "primary": "fafafa",
-      "secondary": "212121",
-      "tertiary": "00bcd4",
-      "quaternary": "00bcd4",
-      "header_background": "000000",
-      "header_primary": "ffffff",
-      "highlight": "fafafa",
-      "danger": "e45735",
-      "success": "009900",
-      "love": "fa6c8d"
+      "love": "fadbd8"
     }
   }
 }

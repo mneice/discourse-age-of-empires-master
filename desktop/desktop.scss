@@ -373,11 +373,38 @@ header.d-header .d-header-icons .icon {
 footer#aoe-footer {
   width: 100%;
   height: 350px;
-  border: 5px solid deeppink;
+  border: none;
   background-color: #000000 !important;
-  background-image: url($header-marble);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-image: url($bkg-marble);
+  background-position: top center;
+  background-repeat: repeat;
+}
+
+
+// section dividers
+.section-divider {
+  position: relative;
+  &:before {
+    //background: url($image-path + 'gold_section_divider.png');
+    background: url($section-divider-default);
+    content: '';
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: -36px;
+    width: 100%;
+  }
+
+  &:after {
+    //background: url($image-path + 'gold_section_divider.png');
+    background: url($section-divider-default);
+    content: '';
+    height: 72px;
+    right: 0;
+    position: absolute;
+    top: -36px;
+    width: 30px;
+    background-position: 100% 80px;
+  }
 }
 

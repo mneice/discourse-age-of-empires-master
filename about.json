@@ -1,0 +1,31 @@
+{
+  "name": "Age of Empires Theme",
+  "about_url": "http://www.ageofempires.com/discourse/theme/about",
+  "license_url": "http://www.ageofempires.com/discourse/theme/LICENSE.txt",
+  "color_schemes": {
+    "Age of Empires": {
+      "primary": "fafafa",
+      "secondary": "221b16",
+      "tertiary": "00bcd4",
+      "quaternary": "00bcd4",
+      "header_background": "000000",
+      "header_primary": "ffffff",
+      "highlight": "fafafa",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    },
+    "Material Dark": {
+      "primary": "fafafa",
+      "secondary": "212121",
+      "tertiary": "00bcd4",
+      "quaternary": "00bcd4",
+      "header_background": "000000",
+      "header_primary": "ffffff",
+      "highlight": "fafafa",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
+  }
+}

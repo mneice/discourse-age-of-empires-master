@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/about.json" afterPath="$PROJECT_DIR$/about.json" />
       <change beforePath="$PROJECT_DIR$/colors.scss" afterPath="$PROJECT_DIR$/colors.scss" />
       <change beforePath="$PROJECT_DIR$/desktop/desktop.scss" afterPath="$PROJECT_DIR$/desktop/desktop.scss" />
     </list>
@@ -17,8 +18,8 @@
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AgeOfEmpires2017/wp-content/themes/msgpwebteam/assets/styles/common/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="528">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -27,8 +28,8 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="318" column="34" lean-forward="false" selection-start-line="318" selection-start-column="34" selection-end-line="318" selection-end-column="34" />
+            <state relative-caret-position="552">
+              <caret line="316" column="48" lean-forward="false" selection-start-line="316" selection-start-column="48" selection-end-line="316" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -37,8 +38,8 @@
       <file leaf-file-name="about.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="495">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -47,8 +48,8 @@
       <file leaf-file-name="colors.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="396">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -59,10 +60,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>header_background</find>
-      <find>221b16</find>
       <find>primary</find>
-      <find>&quot;</find>
       <find>main</find>
+      <find>221b16</find>
+      <find>&quot;</find>
+      <find>secondary</find>
+      <find>ff1493</find>
     </findStrings>
     <replaceStrings>
       <replace>$</replace>
@@ -74,8 +77,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/about.json" />
         <option value="$PROJECT_DIR$/colors.scss" />
+        <option value="$PROJECT_DIR$/about.json" />
         <option value="$PROJECT_DIR$/desktop/desktop.scss" />
       </list>
     </option>
@@ -151,12 +154,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525107950815</updated>
-      <workItem from="1525107952063" duration="3567000" />
+      <workItem from="1525107952063" duration="4631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3567000" />
+    <option name="totallyTimeSpent" value="4631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -201,34 +204,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.json">
+    <entry file="file://$PROJECT_DIR$/../AgeOfEmpires2017/wp-content/themes/msgpwebteam/assets/styles/common/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="528">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="396">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AgeOfEmpires2017/wp-content/themes/msgpwebteam/assets/styles/common/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/about.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="495">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="318" column="34" lean-forward="false" selection-start-line="318" selection-start-column="34" selection-end-line="318" selection-end-column="34" />
+        <state relative-caret-position="552">
+          <caret line="316" column="48" lean-forward="false" selection-start-line="316" selection-start-column="48" selection-end-line="316" selection-end-column="48" />
           <folding />
         </state>
       </provider>

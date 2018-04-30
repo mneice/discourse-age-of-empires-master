@@ -1,19 +1,18 @@
 
 // *******************************************************
-// CUSTOM STYLING REDONE FROM ABOVE
+// CUSTOM STYLING
 // *******************************************************
 
-
-$aoe_primary: #000000;              // Most text, icons, and borders.
-$aoe_secondary: #f1e9d0;            // The main background color, and text color of some buttons.
-$aoe_tertiary: #f4d03f;             // Links, some buttons, notifications, and accent color.
-$aoe_quaternary: #2ecc71;           // Navigation links.
-$aoe_header_background: #ffffff;    // Background color of the site's header.
-$aoe_header_primary: #e74c3c;       // Text and icons in the site's header.
-$aoe_highlight: #7d3c98;            // The background color of highlighted elements on the page, such as posts and topics.
-$aoe_danger: #7b241c;               // Highlight color for actions like deleting posts and topics.
-$aoe_success: #1d8348;              // Used to indicate an action was successful.
-$aoe_love: #fadbd8;                 // The like button's color.
+$primary: #000000;              // Most text, icons, and borders.
+$secondary: #442504;            // The main background color, and text color of some buttons.
+$tertiary: #f4d03f;             // Links, some buttons, notifications, and accent color.
+$quaternary: #ff1493;           // Navigation links.
+$header_background: #000000;    // Background color of the site's header.
+$header_primary: #e5d194;       // Text and icons in the site's header.
+$highlight: #f4d03f;            // The background color of highlighted elements on the page, such as posts and topics.
+$danger: #990000;               // Highlight color for actions like deleting posts and topics.
+$success: #009900;              // Used to indicate an action was successful.
+$love: #ec7063;                 // The like button's color.
 
 //add space between categories
 .topic-list.categories {
@@ -23,7 +22,7 @@ $aoe_love: #fadbd8;                 // The like button's color.
 
 //change category background color to white
 .topic-list.categories>tbody>tr {
-  background-color: lighten($aoe_secondary, 10%);
+  background-color: lighten($secondary, 10%);
 }
 
 //padding for category title and description
@@ -50,31 +49,31 @@ $aoe_love: #fadbd8;                 // The like button's color.
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: lighten($aoe_secondary, 10%);
+  background-color: lighten($secondary, 10%);
   border-collapse: collapse;
 }
 
 //underline navigation links
 .nav-pills>li.active>a,
 .nav-pills>li>a.active {
-  color: $aoe_primary;
+  color: $primary;
   font-weight: 500;
-  background-color: $aoe_secondary;
-  border-bottom: 3px solid $aoe_tertiary;
+  background-color: $secondary;
+  border-bottom: 3px solid $tertiary;
 }
 
 //remove highlighting navigation background on hover
 .nav-pills>li>a:hover {
-  background-color: $aoe_secondary;
+  background-color: $secondary;
 }
 
 //fix color of user profile navigation icons
 .user-main .nav-pills {
   a.active i {
-    color: $aoe_primary;
+    color: $primary;
   }
   a:hover:not(.active) i {
-    color: $aoe_quaternary;
+    color: $quaternary;
   }
 }
 
@@ -83,7 +82,7 @@ $aoe_love: #fadbd8;                 // The like button's color.
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: lighten($aoe_secondary, 10%);
+  background-color: lighten($secondary, 10%);
   margin-top: 10px;
   padding-left: 20px;
   border-radius: 2px;
@@ -113,7 +112,7 @@ $aoe_love: #fadbd8;                 // The like button's color.
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0), 0 2px 10px 0 rgba(0, 0, 0, 0);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0), 0 2px 10px 0 rgba(0, 0, 0, 0);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0), 0 2px 10px 0 rgba(0, 0, 0, 0);
-  background-color: $aoe_secondary;
+  background-color: $secondary;
 }
 
 //raise and round buttons
@@ -166,8 +165,8 @@ button#new-account-link {
   right: 50px;
   z-index: 999;
   padding: 24px 20px 22px 5px;
-  background-color: $aoe_tertiary;
-  color: $aoe_tertiary;
+  background-color: $tertiary;
+  color: $tertiary;
   white-space: nowrap;
   text-indent: 10px;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
@@ -201,7 +200,7 @@ button#new-account-link {
   top: 50px;
   left: -18px;
   z-index: 300;
-  background-color: $aoe_tertiary;
+  background-color: $tertiary;
   color: $header-primary;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
@@ -247,7 +246,7 @@ button#new-account-link {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: lighten($aoe_secondary, 10%);
+  background-color: lighten($secondary, 10%);
   margin-top: 10px;
   padding: 20px;
   border-radius: 2px;
@@ -255,10 +254,10 @@ button#new-account-link {
 
 @keyframes background-fade-highlight {
   0% {
-    background-color: lighten($aoe_tertiary, 20%);
+    background-color: lighten($tertiary, 20%);
   }
   100% {
-    background-color: lighten($aoe_secondary, 10%);
+    background-color: lighten($secondary, 10%);
   }
 }
 
@@ -332,6 +331,21 @@ button#new-account-link {
 // *******************************************************
 // CUSTOM STYLING OUTSIDE OF DEFAULT SETTINGS
 // *******************************************************
+
+/*
+
+$bkg-rock-01
+$header-logo
+$header-marble
+$header-logo: header-logo.png
+$texture-papyrus: texture-papyrus.jpg
+$bkg-marble: bkg-marble.jpg
+$bkg-rock-01: background_rock_repeat.jpg
+$header-marble: header-marble.jpg
+$footer-logo: footer-logo.png
+$section-divider-default: section-divider-default.png
+
+*/
 
 // page background
 html {

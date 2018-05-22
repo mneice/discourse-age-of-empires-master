@@ -466,6 +466,22 @@ ul.nav.nav-pills {
     top: 0;
     left: 0;
   }
+
+  li {
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -2px;
+      top: -1px;
+      background-image: url($bkg-nav-gold-divider);
+      background-repeat: no-repeat;
+      width: 5px;
+      height: 29px;
+      z-index: 1;
+    }
+  }
 }
 
 

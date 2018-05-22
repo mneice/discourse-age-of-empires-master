@@ -17,7 +17,8 @@ $love: #ec7063;                 // The like button's color.
 // Custom Colors and Variables
 $light_alt: #f1e9d0;
 $white: #ffffff;
-$active_color: #b98b14;
+$nav_pill_hover_color: #b98b14;
+$nav_pill_active_color: #b98b14;
 
 //add space between categories
 .topic-list.categories {
@@ -80,17 +81,17 @@ $active_color: #b98b14;
 
 //remove highlighting navigation background on hover
 .nav-pills>li>a:hover {
-  color: $white !important;
+  color: $nav_pill_hover_color !important;
   background-color: transparent !important;
 }
 
 //fix color of user profile navigation icons
 .user-main .nav-pills {
   a.active i {
-    color: $active_color;
+    color: $nav_pill_active_color !important;
   }
   a:hover:not(.active) i {
-    color: $light_alt;
+    color: $light_alt !important;
   }
 }
 

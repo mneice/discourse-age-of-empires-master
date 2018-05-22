@@ -454,8 +454,10 @@ $section-divider-default: section-divider-default.png
   padding: 10px 0 3px 0;
   margin-left: 10px;
   margin-right: 10px;
+  background-color: transparent;
   nav {
     margin-left: 0;
+    width: 100%;
   }
 }
 

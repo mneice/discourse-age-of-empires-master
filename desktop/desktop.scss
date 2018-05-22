@@ -416,7 +416,7 @@ ul.nav {
     position: relative;
     border: none;
     overflow: hidden;
-    padding-top: 5px;
+    padding-top: 4px;
 
     &:before {
       content: "";
@@ -437,7 +437,7 @@ ul.nav {
       display: block;
       position: absolute;
       right: 0;
-      top: 5px;
+      top: 4px;
       background-image: url($bkg-nav-gold-divider);
       background-repeat: no-repeat;
       width: 5px;

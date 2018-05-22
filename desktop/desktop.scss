@@ -458,6 +458,13 @@ $section-divider-default: section-divider-default.png
   nav {
     margin-left: 0;
     width: 100%;
+    ul {
+      li {
+        a {
+          color: $light-alt;
+        }
+      }
+    }
   }
 }
 

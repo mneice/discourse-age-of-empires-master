@@ -414,6 +414,7 @@ ul.nav {
 
 .nav-pills > li > a {
   padding: 6px 12px 11px 12px;
+  color: $light_alt;
 }
 
 .nav-pills > li.active > a, .nav-pills > li > a.active {
@@ -464,7 +465,7 @@ $section-divider-default: section-divider-default.png
     ul {
       li {
         a {
-          color: $light_alt !important;
+
         }
       }
     }

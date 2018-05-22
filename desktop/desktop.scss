@@ -16,6 +16,7 @@ $love: #ec7063;                 // The like button's color.
 
 // Custom Colors and Variables
 $light_alt: #f1e9d0;
+$white: #ffffff;
 
 //add space between categories
 .topic-list.categories {
@@ -72,13 +73,13 @@ $light_alt: #f1e9d0;
 .nav-pills>li>a.active {
   color: $primary;
   font-weight: 500;
-  background-color: $secondary;
-  border-bottom: 3px solid $tertiary;
+  background-color: transparent;
+  border: none;
 }
 
 //remove highlighting navigation background on hover
 .nav-pills>li>a:hover {
-  background-color: $secondary;
+  color: $white;
 }
 
 //fix color of user profile navigation icons
@@ -470,11 +471,26 @@ ul.nav.nav-pills {
 
   li {
     position: relative;
-    &:before {
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    &:first-of-type:before {
       content: "";
       display: block;
       position: absolute;
       left: 0;
+      top: 0;
+      background-image: url($bkg-nav-gold-divider);
+      background-repeat: no-repeat;
+      width: 5px;
+      height: 29px;
+      z-index: 1;
+    }
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      right: 0;
       top: 0;
       background-image: url($bkg-nav-gold-divider);
       background-repeat: no-repeat;

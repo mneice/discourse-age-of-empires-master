@@ -73,7 +73,7 @@ $white: #ffffff;
 .nav-pills>li>a.active {
   color: $light_alt;
   font-weight: 500;
-  background-color: transparent;
+  background-color: transparent !important;
   border: none;
 }
 
@@ -494,7 +494,6 @@ ul.nav {
   position: relative;
   border: none;
   overflow: hidden;
-
 
 }
 

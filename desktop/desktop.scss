@@ -71,7 +71,7 @@ $white: #ffffff;
 //underline navigation links
 .nav-pills>li.active>a,
 .nav-pills>li>a.active {
-  color: $white;
+  color: $light_alt;
   font-weight: 500;
   background-color: transparent;
   border: none;
@@ -411,6 +411,55 @@ ul.nav {
   background-image: url($bkg-nav-brown);
   background-repeat: repeat;
   width: 100%;
+
+  &.nav-pills {
+    position: relative;
+    border: none;
+    overflow: hidden;
+    padding-top: 5px;
+    &:before {
+      content: "";
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+
+    li {
+      position: relative;
+      padding-left: 5px;
+      padding-right: 5px;
+
+      &:first-of-type:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url($bkg-nav-gold-divider);
+        background-repeat: no-repeat;
+        width: 5px;
+        height: 29px;
+        z-index: 1;
+      }
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-image: url($bkg-nav-gold-divider);
+        background-repeat: no-repeat;
+        width: 5px;
+        height: 29px;
+        z-index: 1;
+      }
+    }
+  }
+
 }
 
 .nav-pills > li > a {
@@ -418,19 +467,13 @@ ul.nav {
   color: $light_alt;
 }
 
-.nav-pills > li.active > a, .nav-pills > li > a.active {
+.nav-pills > li.active > a,
+.nav-pills > li > a.active {
   position: relative;
   border: none;
   overflow: hidden;
-  &::after {
-    content: '';
-    background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 5px;
-    width: 100%;
-  }
+
+
 }
 
 
@@ -455,51 +498,6 @@ $section-divider-default: section-divider-default.png
 
 // Navigation Pills
 
-ul.nav.nav-pills {
-  position: relative;
-  padding-top: 5px;
-  &:before {
-    content: "";
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-  }
-
-  li {
-    position: relative;
-    padding-left: 5px;
-    padding-right: 5px;
-
-    &:first-of-type:before {
-      content: "";
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      background-image: url($bkg-nav-gold-divider);
-      background-repeat: no-repeat;
-      width: 5px;
-      height: 29px;
-      z-index: 1;
-    }
-    &:after {
-      content: "";
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-      background-image: url($bkg-nav-gold-divider);
-      background-repeat: no-repeat;
-      width: 5px;
-      height: 29px;
-      z-index: 1;
-    }
-  }
-}
 
 
 // Administration Page

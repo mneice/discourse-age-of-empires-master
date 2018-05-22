@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/desktop/desktop.scss" afterPath="$PROJECT_DIR$/desktop/desktop.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-526">
-              <caret line="436" column="14" lean-forward="false" selection-start-line="436" selection-start-column="14" selection-end-line="436" selection-end-column="14" />
+            <state relative-caret-position="431">
+              <caret line="426" column="29" lean-forward="false" selection-start-line="426" selection-start-column="29" selection-end-line="426" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -185,7 +184,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29940000" />
+    <option name="totallyTimeSpent" value="30066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -546,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
-          <caret line="436" column="14" lean-forward="false" selection-start-line="436" selection-start-column="14" selection-end-line="436" selection-end-column="14" />
+        <state relative-caret-position="431">
+          <caret line="426" column="29" lean-forward="false" selection-start-line="426" selection-start-column="29" selection-end-line="426" selection-end-column="29" />
           <folding />
         </state>
       </provider>

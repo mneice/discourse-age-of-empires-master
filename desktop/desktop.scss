@@ -15,7 +15,7 @@ $success: #009900;              // Used to indicate an action was successful.
 $love: #ec7063;                 // The like button's color.
 
 // Custom Colors and Variables
-$light-alt: #f1e9d0;
+$light_alt: #f1e9d0;
 
 //add space between categories
 .topic-list.categories {
@@ -464,7 +464,7 @@ $section-divider-default: section-divider-default.png
     ul {
       li {
         a {
-          color: $light-alt;
+          color: $light_alt !important;
         }
       }
     }

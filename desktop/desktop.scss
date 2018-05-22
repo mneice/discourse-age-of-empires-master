@@ -418,7 +418,7 @@ ul.nav {
     overflow: hidden;
     padding-top: 4px;
 
-    &:after {
+    &:before {
       content: "";
       width: 100%;
       height: 5px;
@@ -429,10 +429,10 @@ ul.nav {
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 2;
+      z-index: 1;
     }
 
-    &:before {
+    &:after {
       content: "";
       display: block;
       position: absolute;
@@ -442,7 +442,7 @@ ul.nav {
       background-repeat: no-repeat;
       width: 5px;
       height: 29px;
-      z-index: 1;
+      z-index: 2;
     }
 
     li {
@@ -461,7 +461,7 @@ ul.nav {
         background-repeat: no-repeat;
         width: 5px;
         height: 29px;
-        z-index: 1;
+        z-index: 2;
       }
 
       &:after {
@@ -474,7 +474,7 @@ ul.nav {
         background-repeat: no-repeat;
         width: 5px;
         height: 29px;
-        z-index: 1;
+        z-index: 2;
       }
       &:last-of-type:after {
         display: none;

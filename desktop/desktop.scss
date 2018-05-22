@@ -424,7 +424,8 @@ ul.nav {
       height: 5px;
       //background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);
       background-image: url($bkg-nav-gold-bar-top);
-      background-size: cover;
+      background-repeat: repeat-x;
+      background-position: top left;
       position: absolute;
       top: 0;
       left: 0;

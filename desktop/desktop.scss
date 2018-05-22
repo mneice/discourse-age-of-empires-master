@@ -14,6 +14,9 @@ $danger: #990000;               // Highlight color for actions like deleting pos
 $success: #009900;              // Used to indicate an action was successful.
 $love: #ec7063;                 // The like button's color.
 
+// Custom Colors and Variables
+$light-alt: #f1e9d0;
+
 //add space between categories
 .topic-list.categories {
   border-spacing: 0 1em;
@@ -461,7 +464,7 @@ $section-divider-default: section-divider-default.png
     ul {
       li {
         a {
-          color: $secondary;
+          color: $light-alt;
         }
       }
     }

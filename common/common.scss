@@ -154,6 +154,10 @@ pre code {
             background-color: transparent;
             color: $nav_pill_active_color;
             font-weight: bold;
+            &::after {
+                // this is the arrow
+                color: $nav_pill_active_color;
+            }
         }
     }
 }

@@ -207,17 +207,19 @@ pre code {
 
 .btn {
     border: none;
-    //color: $primary;
+    color: $white !important;
     font-weight: normal;
     background: url($bkg-btn-red) no-repeat top center;
 
     &[href] {
         //color: $primary;
+        color: $white !important;
     }
     &:hover, &.btn-hover {
         //background: $primary-medium;
         //color: $secondary;
         background: url($bkg-btn-red) no-repeat bottom center;
+        color: $hover_color;
     }
     &[disabled], &.disabled {
         //background: $primary-low;
@@ -352,9 +354,8 @@ pre code {
 .btn-small {
     padding: 3px 6px;
     //font-size: $font-down-1;
-    color: $white;
     &:hover {
-        color: $hover_color;
+
     }
 }
 

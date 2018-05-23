@@ -363,38 +363,40 @@ button#new-account-link {
   display: none;
 }
 
-/*
+
 
 // Default button
 // --------------------------------------------------
 
 .btn {
   border: none;
-  color: $primary;
+  //color: $primary;
   font-weight: normal;
-  background: $primary-low;
+  //background: $primary-low;
 
   &[href] {
     color: $primary;
   }
   &:hover, &.btn-hover {
-    background: $primary-medium;
-    color: $secondary;
+    //background: $primary-medium;
+    //color: $secondary;
   }
   &[disabled], &.disabled {
     background: $primary-low;
-    &:hover { color: dark-light-choose($primary-low-mid, $secondary-high); }
+    //&:hover { color: dark-light-choose($primary-low-mid, $secondary-high); }
     cursor: not-allowed;
   }
 
   .d-icon {
     opacity: 0.7;
-    line-height: $line-height-medium; // Match button text line-height
+    //line-height: $line-height-medium; // Match button text line-height
   }
   &.btn-primary .d-icon {
     opacity: 1;
   }
 }
+
+/*
 
 // Primary button
 // --------------------------------------------------

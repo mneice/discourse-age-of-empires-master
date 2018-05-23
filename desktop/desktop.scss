@@ -412,7 +412,7 @@ button#new-account-link {
   }
   &:active, &.btn-active {
     //@include linear-gradient($tertiary, $tertiary);
-    color: $secondary;
+    //color: $secondary;
   }
   &[disabled], &.disabled {
     //background: $tertiary;
@@ -453,7 +453,7 @@ button#new-account-link {
   }
   &:before {
     margin-right: 9px;
-    font-family: FontAwesome;
+    //font-family: FontAwesome;
     //font-size: $font-0;
   }
   &.google, &.google_oauth2 {

@@ -41,6 +41,10 @@ $nav_pill_hover_color: #f4d03f;
 $nav_pill_active_color: #f4d03f;
 $hover_color: #f4d03f;
 $active_color: #f4d03f;
+$btn_color: #ffffff;
+$btn_hover_color: #f1e9d0;
+$btn_active_color: #f4d03f;
+$btn_disabled_color: #aaaaaa;
 
 // Brand color variables from variables.css
 // --------------------------------------------------
@@ -208,23 +212,23 @@ pre code {
 
 .btn {
     border: none;
-    color: $white !important;
+    color: $btn_color !important;
     font-weight: normal;
     background: url($bkg-btn-red) no-repeat top center !important;
 
     &[href] {
-        color: $white !important;
+        color: $btn_color !important;
     }
     &:hover, &.btn-hover {
         background: url($bkg-btn-red) no-repeat bottom center !important;
-        color: $hover_color !important;;
+        color: $btn_hover_color !important;;
     }
     &[disabled], &.disabled {
         background: url($bkg-btn-red) no-repeat top center !important;
-        color: $white !important;
+        color:$btn_disabled_color !important;
         &:hover {
             background: url($bkg-btn-red) no-repeat bottom center;
-            color: $hover_color !important;
+            color: $btn_disabled_color !important;
         }
         cursor: not-allowed;
 
@@ -251,18 +255,19 @@ pre code {
     background: url($bkg-btn-red) no-repeat top center !important;
 
     &[href] {
-        color: $white !important;
+        color: $btn_color !important;
     }
     &:hover, &.btn-hover {
-        color: $hover_color !important;
+        color: $btn_hover_color !important;
         background: url($bkg-btn-red) no-repeat bottom center !important;
     }
     &:active, &.btn-active {
-        color: $active_color !important;
+        color: $btn_active_color !important;
         background: url($bkg-btn-red) no-repeat bottom center !important;
     }
     &[disabled], &.disabled {
         background: url($bkg-btn-red) no-repeat top center !important;
+        color: $btn_disabled_color !important;
     }
 }
 
@@ -272,24 +277,23 @@ pre code {
 // --------------------------------------------------
 
 .btn-danger {
-    color: $white !important;
+    color: $btn_color !important;
     font-weight: normal;
     background: url($bkg-btn-red) no-repeat top center !important;
     &[href] {
-        color: $white !important;
+        color: $btn_color !important;
     }
     &:hover, &.btn-hover {
         background: url($bkg-btn-red) no-repeat bottom center !important;
-        color: $hover_color !important;
+        color: $btn_hover_color !important;
     }
     &:active, &.btn-active {
-        color: $active_color !important;
         background: url($bkg-btn-red) no-repeat bottom center !important;
-        color: $active_color !important;
+        color: $btn_active_color !important;
     }
     &[disabled], &.disabled {
         background: url($bkg-btn-red) no-repeat top center !important;
-        color: $white !important;
+        color: $btn_disabled_color !important;
     }
 }
 
@@ -301,10 +305,10 @@ pre code {
 .btn-social {
     color: #fff;
     &:hover {
-        color: $white;
+        color: $btn_hover_color;
     }
     &[href] {
-        color: $white;
+        color: $btn_color;
     }
     &:before {
         margin-right: 9px;

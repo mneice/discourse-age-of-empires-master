@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/common/common.scss" afterPath="$PROJECT_DIR$/common/common.scss" />
-      <change beforePath="$PROJECT_DIR$/images/bkg-btn-red.jpg" afterPath="$PROJECT_DIR$/images/bkg-btn-red.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1645">
-              <caret line="212" column="66" lean-forward="true" selection-start-line="212" selection-start-column="66" selection-end-line="212" selection-end-column="66" />
+            <state relative-caret-position="-1997">
+              <caret line="295" column="34" lean-forward="false" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -200,7 +199,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44641000" />
+    <option name="totallyTimeSpent" value="45091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -602,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1645">
-          <caret line="212" column="66" lean-forward="true" selection-start-line="212" selection-start-column="66" selection-end-line="212" selection-end-column="66" />
+        <state relative-caret-position="-1997">
+          <caret line="295" column="34" lean-forward="false" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
           <folding />
         </state>
       </provider>

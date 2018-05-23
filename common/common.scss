@@ -181,7 +181,7 @@ pre code {
 
     &:active, &.btn-active {
         text-shadow: none;
-        background: url($bkg-btn-red) no-repeat bottom center;
+        background: url($bkg-btn-red) no-repeat bottom center !important;;
     }
     &[disabled], &.disabled {
         cursor: default;
@@ -210,22 +210,21 @@ pre code {
     border: none;
     color: $white !important;
     font-weight: normal;
-    background: url($bkg-btn-red) no-repeat top center;
+    background: url($bkg-btn-red) no-repeat top center !important;
 
     &[href] {
-        //color: $primary;
         color: $white !important;
     }
     &:hover, &.btn-hover {
-        background: url($bkg-btn-red) no-repeat bottom center;
-        color: $hover_color;
+        background: url($bkg-btn-red) no-repeat bottom center !important;
+        color: $hover_color !important;;
     }
     &[disabled], &.disabled {
-        background: url($bkg-btn-red) no-repeat top center;
-        color: $white;
+        background: url($bkg-btn-red) no-repeat top center !important;
+        color: $white !important;
         &:hover {
             background: url($bkg-btn-red) no-repeat bottom center;
-            color: $hover_color;
+            color: $hover_color !important;
         }
         cursor: not-allowed;
 
@@ -248,22 +247,22 @@ pre code {
 .btn-primary {
     border: none;
     font-weight: normal;
-    color: $white;
-    background: url($bkg-btn-red) no-repeat top center;
+    color: $white !important;
+    background: url($bkg-btn-red) no-repeat top center !important;
 
     &[href] {
-        color: $white;
+        color: $white !important;
     }
     &:hover, &.btn-hover {
-        color: $white;
-        background: url($bkg-btn-red) no-repeat bottom center;
+        color: $hover_color !important;
+        background: url($bkg-btn-red) no-repeat bottom center !important;
     }
     &:active, &.btn-active {
-        color: $active_color;
-        background: url($bkg-btn-red) no-repeat bottom center;
+        color: $active_color !important;
+        background: url($bkg-btn-red) no-repeat bottom center !important;
     }
     &[disabled], &.disabled {
-        background: url($bkg-btn-red) no-repeat top center;
+        background: url($bkg-btn-red) no-repeat top center !important;
     }
 }
 
@@ -273,21 +272,24 @@ pre code {
 // --------------------------------------------------
 
 .btn-danger {
-    color: $white;
+    color: $white !important;
     font-weight: normal;
-    background: url($bkg-btn-red) no-repeat top center;
+    background: url($bkg-btn-red) no-repeat top center !important;
     &[href] {
-        color: $white;
+        color: $white !important;
     }
     &:hover, &.btn-hover {
-        background: url($bkg-btn-red) no-repeat bottom center;
+        background: url($bkg-btn-red) no-repeat bottom center !important;
+        color: $hover_color !important;
     }
     &:active, &.btn-active {
-        color: $active_color;
-        background: url($bkg-btn-red) no-repeat bottom center;
+        color: $active_color !important;
+        background: url($bkg-btn-red) no-repeat bottom center !important;
+        color: $active_color !important;
     }
     &[disabled], &.disabled {
-        background: url($bkg-btn-red) no-repeat top center;
+        background: url($bkg-btn-red) no-repeat top center !important;
+        color: $white !important;
     }
 }
 

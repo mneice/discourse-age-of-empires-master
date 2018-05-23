@@ -174,7 +174,7 @@ pre code {
     //line-height: $line-height-medium;
     text-align: center;
     cursor: pointer;
-    transition: all .25s;
+    //transition: all .25s;
 
     &:active, &.btn-active {
         text-shadow: none;
@@ -353,6 +353,8 @@ pre code {
     background-position: top center;
     color: $off_white;
     &:hover {
+        background-image: url($bkg-btn-red);
+        background-repeat: no-repeat;
         background-position: bottom center;
         color: $white;
     }

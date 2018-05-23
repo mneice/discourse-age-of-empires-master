@@ -392,7 +392,10 @@ pre code {
 
 // Input Fields
 .settings .setting.overridden.string input[type="text"],
-.settings .setting.overridden.string textarea {
+.settings .setting.overridden.string textarea,
+.settings .setting .input-setting-string,
+.settings .setting .input-setting-textarea,
+.select-kit .select-kit-collection {
     background: $white !important;
 }
 

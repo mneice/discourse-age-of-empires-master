@@ -33,6 +33,7 @@ $a_color: #762123;
 
 // Custom Colors and Variables
 $white: #ffffff;
+$off_white: #c4c4c4;
 $black: #000000;
 $light_alt: #f1e9d0;
 $xdark-brown: #221b16;
@@ -347,11 +348,13 @@ pre code {
 .btn-small {
     padding: 3px 6px;
     //font-size: $font-down-1;
-    background: red;
-    color: white;
+    background-image: url($bkg-btn-red);
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: $off_white;
     &:hover {
-        background: white;
-        color: red;
+        background-position: bottom center
+        color: $white;
     }
 }
 

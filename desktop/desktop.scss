@@ -324,6 +324,45 @@ button#new-account-link {
 }
 
 
+// --------------------------------------------------
+// Buttons
+// --------------------------------------------------
+
+// Base
+// --------------------------------------------------
+
+.btn {
+  display: inline-block;
+  margin: 0;
+  padding: 6px 12px;
+  font-weight: 500;
+  //font-size: $font-0;
+  //line-height: $line-height-medium;
+  text-align: center;
+  cursor: pointer;
+  transition: all .25s;
+
+  &:active, &.btn-active {
+    text-shadow: none;
+  }
+  &[disabled], &.disabled {
+    cursor: default;
+    opacity: 0.4;
+  }
+  .fa {
+    margin-right: 7px;
+  }
+  &.no-text {
+    .fa {
+      margin-right: 0;
+    }
+  }
+}
+
+.btn.hidden {
+  display: none;
+}
+
 
 
 

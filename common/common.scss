@@ -347,6 +347,12 @@ pre code {
 .btn-small {
     padding: 3px 6px;
     //font-size: $font-down-1;
+    background: red;
+    color: white;
+    &:hover {
+        background: white;
+        color: red;
+    }
 }
 
 // Large

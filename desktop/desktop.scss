@@ -423,28 +423,30 @@ button#new-account-link {
   }
 }
 
-/*
+
 
 // Danger button
 // --------------------------------------------------
 
 .btn-danger {
-  color: $secondary;
+  //color: $secondary;
   font-weight: normal;
-  background: $danger;
+  //background: $danger;
   &[href] {
-    color: $secondary;
+    //color: $secondary;
   }
   &:hover, &.btn-hover {
-    background: scale-color($danger, $lightness: -20%);
+    //background: scale-color($danger, $lightness: -20%);
   }
   &:active, &.btn-active {
-    @include linear-gradient(scale-color($danger, $lightness: -20%), $danger);
+    //@include linear-gradient(scale-color($danger, $lightness: -20%), $danger);
   }
   &[disabled], &.disabled {
-    background: $danger;
+    //background: $danger;
   }
 }
+
+
 
 // Social buttons
 // --------------------------------------------------
@@ -455,53 +457,55 @@ button#new-account-link {
     color: #fff;
   }
   &[href] {
-    color: $secondary;
+    //color: $secondary;
   }
   &:before {
     margin-right: 9px;
     font-family: FontAwesome;
-    font-size: $font-0;
+    //font-size: $font-0;
   }
   &.google, &.google_oauth2 {
-    background: $google;
+    //background: $google;
     &:before {
-      content: $fa-var-google;
+      //content: $fa-var-google;
     }
   }
   &.instagram {
-    background: $instagram;
+    //background: $instagram;
     &:before {
-      content: $fa-var-instagram;
+      //content: $fa-var-instagram;
     }
   }
   &.facebook {
-    background: $facebook;
+    //background: $facebook;
     &:before {
-      content: $fa-var-facebook;
+      //content: $fa-var-facebook;
     }
   }
   &.cas {
-    background: $cas;
+    //background: $cas;
   }
   &.twitter {
-    background: $twitter;
+    //background: $twitter;
     &:before {
-      content: $fa-var-twitter;
+      //content: $fa-var-twitter;
     }
   }
   &.yahoo {
-    background: $yahoo;
+    //background: $yahoo;
     &:before {
-      content: $fa-var-yahoo;
+      //content: $fa-var-yahoo;
     }
   }
   &.github {
-    background: $github;
+    //background: $github;
     &:before {
-      content: $fa-var-github;
+      //content: $fa-var-github;
     }
   }
 }
+
+/*
 
 // Button Sizes
 // --------------------------------------------------

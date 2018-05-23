@@ -177,6 +177,7 @@ pre code {
     text-align: center;
     cursor: pointer;
     //transition: all .25s;
+    transition: none !important;
 
     &:active, &.btn-active {
         text-shadow: none;
@@ -208,7 +209,7 @@ pre code {
     border: none;
     //color: $primary;
     font-weight: normal;
-    //background: $primary-low;
+    background: url($bkg-btn-red) no-repeat top center;
 
     &[href] {
         //color: $primary;
@@ -216,6 +217,7 @@ pre code {
     &:hover, &.btn-hover {
         //background: $primary-medium;
         //color: $secondary;
+        background: url($bkg-btn-red) no-repeat bottom center;
     }
     &[disabled], &.disabled {
         //background: $primary-low;
@@ -350,14 +352,8 @@ pre code {
 .btn-small {
     padding: 3px 6px;
     //font-size: $font-down-1;
-    background-image: url($bkg-btn-red);
-    background-repeat: no-repeat;
-    background-position: top center;
     color: $white;
     &:hover {
-        background-image: url($bkg-btn-red);
-        background-repeat: no-repeat;
-        background-position: bottom center;
         color: $hover_color;
     }
 }

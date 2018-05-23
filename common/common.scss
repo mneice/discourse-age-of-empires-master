@@ -39,6 +39,8 @@ $light_alt: #f1e9d0;
 $xdark-brown: #221b16;
 $nav_pill_hover_color: #f4d03f;
 $nav_pill_active_color: #f4d03f;
+$hover_color: #f4d03f;
+$active_color: #f4d03f;
 
 // Brand color variables from variables.css
 // --------------------------------------------------
@@ -351,12 +353,12 @@ pre code {
     background-image: url($bkg-btn-red);
     background-repeat: no-repeat;
     background-position: top center;
-    color: $off_white;
+    color: color: $white;
     &:hover {
         background-image: url($bkg-btn-red);
         background-repeat: no-repeat;
         background-position: bottom center;
-        color: $white;
+        color: $hover_color;
     }
 }
 

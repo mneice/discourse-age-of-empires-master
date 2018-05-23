@@ -33,6 +33,7 @@ $a_color: #762123;
 
 // Custom Colors and Variables
 $white: #ffffff;
+$black: #000000;
 $light_alt: #f1e9d0;
 $xdark-brown: #221b16;
 $nav_pill_hover_color: #f4d03f;
@@ -153,6 +154,7 @@ pre code {
 h1, h2, h3, h4, h5, h6 {
     font-family: trajan-pro-3,serif !important;
     font-style: normal;
+    color: $black;
 }
 
 // CUSTOM STYLES -> Navigation

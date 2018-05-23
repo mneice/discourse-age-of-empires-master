@@ -177,10 +177,11 @@ pre code {
     text-align: center;
     cursor: pointer;
     //transition: all .25s;
-    transition: none !important;
+    transition: color .25s;
 
     &:active, &.btn-active {
         text-shadow: none;
+        background: url($bkg-btn-red) no-repeat bottom center;
     }
     &[disabled], &.disabled {
         cursor: default;
@@ -259,6 +260,7 @@ pre code {
     }
     &:active, &.btn-active {
         color: $active_color;
+        background: url($bkg-btn-red) no-repeat bottom center;
     }
     &[disabled], &.disabled {
         background: url($bkg-btn-red) no-repeat top center;
@@ -282,6 +284,7 @@ pre code {
     }
     &:active, &.btn-active {
         color: $active_color;
+        background: url($bkg-btn-red) no-repeat bottom center;
     }
     &[disabled], &.disabled {
         background: url($bkg-btn-red) no-repeat top center;

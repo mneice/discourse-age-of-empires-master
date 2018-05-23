@@ -389,6 +389,8 @@ header.d-header .d-header-icons .icon {
   background-repeat: repeat;
   border: 2px solid #2d2a23;
   box-shadow: 0 6px 15px 0 rgba(0,0,0,.4);
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 #create-topic.btn-default {
@@ -537,8 +539,6 @@ $section-divider-default: section-divider-default.png
 // Administration Page
 .admin-controls {
   padding: 10px 0 3px 0;
-  margin-left: 10px;
-  margin-right: 10px;
   background-color: transparent;
   nav {
     margin-left: 0;

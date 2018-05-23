@@ -138,3 +138,16 @@ pre code {
 #offscreen-content {
     display: none;
 }
+
+
+
+// --------------------------------------------------
+// CUSTOM STYLES for HTML elements
+// --------------------------------------------------
+
+// CUSTOM STYLES -> Navigation
+.nav.nav-stacked {
+    a {
+        color: $light_alt;
+    }
+}

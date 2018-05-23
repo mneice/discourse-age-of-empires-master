@@ -396,7 +396,7 @@ button#new-account-link {
   }
 }
 
-/*
+
 
 // Primary button
 // --------------------------------------------------
@@ -404,24 +404,26 @@ button#new-account-link {
 .btn-primary {
   border: none;
   font-weight: normal;
-  color: $secondary;
-  background: $tertiary;
+  //color: $secondary;
+  //background: $tertiary;
 
   &[href] {
-    color: $secondary;
+    //color: $secondary;
   }
   &:hover, &.btn-hover {
     color: #fff;
-    background: dark-light-choose($tertiary, $tertiary);
+    //background: dark-light-choose($tertiary, $tertiary);
   }
   &:active, &.btn-active {
-    @include linear-gradient($tertiary, $tertiary);
-    color: $secondary;
+    //@include linear-gradient($tertiary, $tertiary);
+    //color: $secondary;
   }
   &[disabled], &.disabled {
-    background: $tertiary;
+    //background: $tertiary;
   }
 }
+
+/*
 
 // Danger button
 // --------------------------------------------------

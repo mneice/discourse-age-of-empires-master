@@ -390,7 +390,11 @@ pre code {
 
 
 
-
+// Input Fields
+.settings .setting.overridden.string input[type="text"],
+.settings .setting.overridden.string textarea {
+    background: $white !important;
+}
 
 
 // --------------------------------------------------

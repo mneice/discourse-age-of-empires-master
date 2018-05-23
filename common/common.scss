@@ -395,7 +395,10 @@ pre code {
 .settings .setting.overridden.string textarea,
 .settings .setting .input-setting-string,
 .settings .setting .input-setting-textarea,
-.select-kit .select-kit-collection {
+.select-kit .select-kit-collection,
+.select-kit.combo-box .select-kit-header,
+.select-kit.multi-select .choices .filter .filter-input,
+.select-kit.multi-select .choices .filter .filter-input:focus {
     background: $white !important;
 }
 

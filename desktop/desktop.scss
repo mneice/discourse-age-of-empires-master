@@ -375,14 +375,14 @@ button#new-account-link {
   //background: $primary-low;
 
   &[href] {
-    color: $primary;
+    //color: $primary;
   }
   &:hover, &.btn-hover {
     //background: $primary-medium;
     //color: $secondary;
   }
   &[disabled], &.disabled {
-    background: $primary-low;
+    //background: $primary-low;
     //&:hover { color: dark-light-choose($primary-low-mid, $secondary-high); }
     cursor: not-allowed;
   }

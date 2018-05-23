@@ -216,15 +216,18 @@ pre code {
         color: $white !important;
     }
     &:hover, &.btn-hover {
-        //background: $primary-medium;
-        //color: $secondary;
         background: url($bkg-btn-red) no-repeat bottom center;
         color: $hover_color;
     }
     &[disabled], &.disabled {
-        //background: $primary-low;
-        //&:hover { color: dark-light-choose($primary-low-mid, $secondary-high); }
+        background: url($bkg-btn-red) no-repeat top center;
+        color: $white;
+        &:hover {
+            background: url($bkg-btn-red) no-repeat bottom center;
+            color: $hover_color;
+        }
         cursor: not-allowed;
+
     }
 
     .d-icon {
@@ -244,22 +247,21 @@ pre code {
 .btn-primary {
     border: none;
     font-weight: normal;
-    //color: $secondary;
-    //background: $tertiary;
+    color: $white;
+    background: url($bkg-btn-red) no-repeat top center;
 
     &[href] {
-        //color: $secondary;
+        color: $white;
     }
     &:hover, &.btn-hover {
-        color: #fff;
-        //background: dark-light-choose($tertiary, $tertiary);
+        color: $white;
+        background: url($bkg-btn-red) no-repeat bottom center;
     }
     &:active, &.btn-active {
-        //@include linear-gradient($tertiary, $tertiary);
-        //color: $secondary;
+        color: $active_color;
     }
     &[disabled], &.disabled {
-        //background: $tertiary;
+        background: url($bkg-btn-red) no-repeat top center;
     }
 }
 
@@ -269,20 +271,20 @@ pre code {
 // --------------------------------------------------
 
 .btn-danger {
-    //color: $secondary;
+    color: $white;
     font-weight: normal;
-    //background: $danger;
+    background: url($bkg-btn-red) no-repeat top center;
     &[href] {
-        //color: $secondary;
+        color: $white;
     }
     &:hover, &.btn-hover {
-        //background: scale-color($danger, $lightness: -20%);
+        background: url($bkg-btn-red) no-repeat bottom center;
     }
     &:active, &.btn-active {
-        //@include linear-gradient(scale-color($danger, $lightness: -20%), $danger);
+        color: $active_color;
     }
     &[disabled], &.disabled {
-        //background: $danger;
+        background: url($bkg-btn-red) no-repeat top center;
     }
 }
 
@@ -294,10 +296,10 @@ pre code {
 .btn-social {
     color: #fff;
     &:hover {
-        color: #fff;
+        color: $white;
     }
     &[href] {
-        //color: $secondary;
+        color: $white;
     }
     &:before {
         margin-right: 9px;

@@ -624,11 +624,15 @@ tr {
 
         color: $black !important;
 
+        tbody {
+            border: none !important;
+        }
+
         a {
             color: $a_color !important;
         }
         tr {
-
+            border-bottom: none !important;
             td {
                 color: $black !important;
                 .fa, span {

@@ -554,6 +554,13 @@ tr {
     a {
         color: $a_alt !important;
     }
+
+    table {
+        color: $black !important;
+        a {
+            color: $a_color !important;
+        }
+    }
 }
 //
 

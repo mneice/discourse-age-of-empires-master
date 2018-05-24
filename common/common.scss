@@ -399,12 +399,13 @@ input,
 .select-kit-collection,
 .is-focused,
 .is-expanded,
-.is-none, 
+.is-none,
 .combo-box-header,
 .select-kit-filter.multi-select-filter {
     background: $white !important;
     box-shadow: none !important;
-    &:focus {
+    &:focus,
+    .is-focused {
         background: $white !important;
         box-shadow: none !important;
         border-color: $input_border_focus_color;

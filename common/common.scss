@@ -500,6 +500,7 @@ tr {
     &:hover {
         background-color: $tr_hover_background_color !important;
         td,
+        td a, 
         td .fa {
             color: $table_hover_color !important;
         }

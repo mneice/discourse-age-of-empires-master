@@ -501,6 +501,10 @@ th {
 tr {
     &:nth-of-type(2n) {
         background-color: $tr_background_color_2n !important;
+    }
+    td,
+    td .fa,
+    td span {
         color: $black !important;
     }
     &:hover {

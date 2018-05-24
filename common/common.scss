@@ -502,11 +502,6 @@ tr {
     &:nth-of-type(2n) {
         background-color: $tr_background_color_2n !important;
     }
-    td,
-    td .fa,
-    td span {
-        color: $black !important;
-    }
     &:hover {
         background-color: $tr_hover_background_color !important;
         td,
@@ -605,17 +600,33 @@ tr {
     }
 
     table {
+        background-image: url($topic_background_image) !important;
+        background-repeat: repeat !important;
+        background-position: top center !important;
+        background-color: $topic_background_color !important;
+
         color: $black !important;
+
         a {
             color: $a_color !important;
         }
-        tr:hover {
+        tr {
+
             td,
             td .fa,
-            td a {
-                color: $white !important;
+            td span {
+                color: $black !important;
+            }
+
+            &:hover {
+                td,
+                td .fa,
+                td a {
+                    color: $white !important;
+                }
             }
         }
+
     }
 }
 //

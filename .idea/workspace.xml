@@ -36,8 +36,8 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="507" column="33" lean-forward="false" selection-start-line="507" selection-start-column="33" selection-end-line="507" selection-end-column="33" />
+            <state relative-caret-position="447">
+              <caret line="607" column="33" lean-forward="false" selection-start-line="607" selection-start-column="33" selection-end-line="607" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -202,7 +202,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57503000" />
+    <option name="totallyTimeSpent" value="57746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -612,8 +612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="507" column="33" lean-forward="false" selection-start-line="507" selection-start-column="33" selection-end-line="507" selection-end-column="33" />
+        <state relative-caret-position="447">
+          <caret line="607" column="33" lean-forward="false" selection-start-line="607" selection-start-column="33" selection-end-line="607" selection-end-column="33" />
           <folding />
         </state>
       </provider>

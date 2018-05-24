@@ -423,11 +423,11 @@ input,
     color: $white;
 }
 
-.category-list, .topic-list:not(.categories), .latest-topic-list {
+.category-list,
+.topic-list:not(.categories),
+.latest-topic-list {
     border: none !important;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
+    box-shadow: none !important;
 
     // Input setting description
 .settings .setting .desc {

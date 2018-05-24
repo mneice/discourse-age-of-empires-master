@@ -58,6 +58,7 @@ $tr_background_color_2n: rgba(68,37,4,0.08);
 $tr_hover_background_color: #762123;
 
 // Forum Topic Colors
+$topic_background_color: #fdf8e2;
 $topic_background_image: $texture-papyrus;
 
 
@@ -529,9 +530,14 @@ tr {
 
 // Topics
 .topic-body {
-    background-image: url($topic_background_image);
-    background-repeat: repeat;
-    background-position: top center;
+    background-image: url($topic_background_image) !important;
+    background-repeat: repeat !important;
+    background-position: top center !important;
+    background-color: $topic_background_color !important;
+}
+
+.topic-footer-buttons {
+    color: $light_alt !important;
 }
 //
 

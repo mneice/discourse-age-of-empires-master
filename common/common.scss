@@ -547,7 +547,8 @@ tr {
 }
 
 #suggested-topics {
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6,
+    .fa, span {
         color: $light_alt !important;
     }
     a {

@@ -394,17 +394,10 @@ pre code {
 // Input Fields
 textarea,
 input,
-.select-kit-collection {
+.select-kit-collection,
+.setting .is-focused {
     background: $white !important;
     box-shadow: none !important;
-    &:focus {
-        box-shadow: deeppink !important;
-
-    }
-
-    .is-focused {
-        background-color: white !important;
-    }
 }
 
 // Input setting description

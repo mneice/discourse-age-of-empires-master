@@ -51,12 +51,11 @@ $input_description_color: #4B4631;
 $input_border_focus_color: #762123;
 
 // Table Colors
+$table_hover_color: #ffffff;
 $th_background_color: #442504;
 $th_color: #ffffff;
 $th_a_color: #f4d03f;
-
 $tr_background_color_2n: rgba(68,37,4,0.10);
-$tr_hover_color: #fffff;
 $tr_hover_background_color: #762123;
 
 
@@ -502,7 +501,7 @@ tr {
         background-color: $tr_hover_background_color !important;
         td,
         td .fa {
-            color: $tr_hover_color !important;
+            color: $table_hover_color !important;
         }
     }
 }

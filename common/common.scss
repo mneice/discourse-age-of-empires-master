@@ -50,6 +50,12 @@ $btn_disabled_color: #aaaaaa;
 $input_description_color: #4B4631;
 $input_border_focus_color: #762123;
 
+// Table Colors
+$th_background_color: #442504;
+$th_color: #ffffff;
+$th_a_color: #f4d03f;
+
+
 // Brand color variables from variables.css
 // --------------------------------------------------
 
@@ -469,3 +475,15 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
+
+th {
+    background-color: $th_background_color !important;
+    background-image: url($bkg-rock-01);
+    background-position: top center;
+    background-repeat: repeat;
+    color: $th_color;
+    a {
+        color: $th_a_color;
+    }
+}
+

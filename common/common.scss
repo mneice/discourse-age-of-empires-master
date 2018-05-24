@@ -560,6 +560,13 @@ tr {
         a {
             color: $a_color !important;
         }
+        tr:hover {
+            td,
+            td .fa,
+            td a {
+                color: $white;
+            }
+        }
     }
 }
 //

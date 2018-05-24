@@ -394,7 +394,6 @@ pre code {
 
 // Input Fields
 .select-kit-body,
-.select-kit-wrapper, 
 textarea,
 input,
 .select-kit-collection,
@@ -409,7 +408,13 @@ input,
     }
 }
 
-// Input setting description
+.select-kit.combo-box.is-expanded .select-kit-wrapper {
+    box-shadow: none !important;
+    border: 1px solid $input_border_focus_color;
+
+}
+
+    // Input setting description
 .settings .setting .desc {
     color: $input_description_color;
 }

@@ -395,8 +395,10 @@ textarea,
 input,
 .select-kit-collection {
     background: $white !important;
+    box-shadow: none !important;
     &:focus {
         box-shadow: deeppink !important;
+
     }
 
     .is-focused {

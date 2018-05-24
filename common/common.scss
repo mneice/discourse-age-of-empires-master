@@ -53,6 +53,7 @@ $input_border_focus_color: #762123;
 // Table Colors
 $table_hover_color: #ffffff;
 $th_background_color: #442504;
+$th_background_image: $bkg-nav-brown;
 $th_color: #ffffff;
 $th_a_color: #f4d03f;
 $tr_background_color_2n: rgba(68,37,4,0.08);
@@ -483,7 +484,7 @@ h1, h2, h3, h4, h5, h6 {
 // Tables
 th {
     background-color: $th_background_color !important;
-    background-image: url($bkg-rock-01) !important;
+    background-image: url($th_background_image) !important;
     background-position: top center !important;
     background-repeat: repeat !important;
     color: $th_color !important;
@@ -512,7 +513,7 @@ tr {
 
 // Header Menus
 .header-dropdown-toggle {
-    &:hover {
+    &:hover a {
         background-color: transparent;
     }
 }

@@ -484,6 +484,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 // Tables
+
 th {
     background-color: $th_background_color !important;
     background-image: url($th_background_image) !important;
@@ -534,6 +535,8 @@ tr {
     background-repeat: repeat !important;
     background-position: top center !important;
     background-color: $topic_background_color !important;
+
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,.4);
 
     // Widget button CUSTOM STYLE
     // --------------------------------------------------
@@ -612,16 +615,16 @@ tr {
         }
         tr {
 
-            td,
-            td .fa,
-            td span {
+            td {
                 color: $black !important;
+                .fa, span {
+                    color: $black !important;
+                }
             }
 
-            &:hover {
-                td,
-                td .fa,
-                td a {
+            &:hover td {
+                color: $white !important;
+                .fa, a, span{
                     color: $white !important;
                 }
             }

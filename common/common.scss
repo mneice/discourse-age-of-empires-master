@@ -55,6 +55,10 @@ $th_background_color: #442504;
 $th_color: #ffffff;
 $th_a_color: #f4d03f;
 
+$tr_background_color_2n: rgba(68,37,4,0.15);
+$tr_hover_color: #fffff;
+$tr_hover_background_color: #762123;
+
 
 // Brand color variables from variables.css
 // --------------------------------------------------
@@ -484,6 +488,16 @@ th {
     color: $th_color;
     a {
         color: $th_a_color;
+    }
+}
+
+tr {
+    &:nth-of-type(2n) {
+        background-color: $tr_background_color_2n;
+    }
+    &:hover {
+        color: $tr_hover_color;
+        background-color: $tr_hover_background_color;
     }
 }
 

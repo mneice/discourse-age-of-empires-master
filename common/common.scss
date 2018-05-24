@@ -537,6 +537,10 @@ tr {
     a, span {
         color: $light_alt !important;
     }
+    a i,
+    a i:before {
+        color: $a_color;
+    }
 
 }
 

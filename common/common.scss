@@ -499,8 +499,11 @@ tr {
         background-color: $tr_background_color_2n !important;
     }
     &:hover {
-        color: $tr_hover_color !important;
         background-color: $tr_hover_background_color !important;
+        td,
+        td .fa {
+            color: $tr_hover_color !important;
+        }
     }
 }
 

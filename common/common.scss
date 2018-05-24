@@ -405,7 +405,7 @@ input,
     background: $white !important;
     box-shadow: none !important;
     &:focus,
-    .is-focused {
+    &.is-focused {
         background: $white !important;
         box-shadow: none !important;
         border-color: $input_border_focus_color;

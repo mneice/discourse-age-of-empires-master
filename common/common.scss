@@ -406,7 +406,6 @@ pre code {
 }
 
 
-
 // Input Fields
 .select-kit-body,
 textarea,
@@ -535,6 +534,43 @@ tr {
     background-repeat: repeat !important;
     background-position: top center !important;
     background-color: $topic_background_color !important;
+
+    // Widget button CUSTOM STYLE
+    // --------------------------------------------------
+
+    .widget-button {
+        border: none;
+        color: $btn_color !important;
+        font-weight: normal;
+        background: url($bkg-btn-red) no-repeat top center !important;
+
+        &[href] {
+            color: $btn_color !important;
+        }
+        &:hover, &.btn-hover {
+            background: url($bkg-btn-red) no-repeat bottom center !important;
+            color: $btn_hover_color !important;;
+        }
+        &[disabled], &.disabled {
+            background: url($bkg-btn-red) no-repeat top center !important;
+            color:$btn_disabled_color !important;
+            &:hover {
+                background: url($bkg-btn-red) no-repeat bottom center;
+                color: $btn_disabled_color !important;
+            }
+            cursor: not-allowed;
+
+        }
+
+        .d-icon {
+            opacity: 0.7;
+            //line-height: $line-height-medium; // Match button text line-height
+        }
+        &.btn-primary .d-icon {
+            opacity: 1;
+        }
+    }
+
 }
 
 #topic-footer-buttons {

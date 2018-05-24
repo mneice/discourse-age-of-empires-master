@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/common/common.scss" afterPath="$PROJECT_DIR$/common/common.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +37,19 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="566" column="41" lean-forward="false" selection-start-line="566" selection-start-column="41" selection-end-line="566" selection-end-column="41" />
+            <state relative-caret-position="756">
+              <caret line="571" column="5" lean-forward="false" selection-start-line="571" selection-start-column="5" selection-end-line="571" selection-end-column="5" />
               <folding>
-                <element signature="e#10122#10573#0" expanded="false" />
-                <element signature="e#10941#11224#0" expanded="false" />
+                <element signature="e#4920#5781#0" expanded="false" />
+                <element signature="e#5871#6532#0" expanded="false" />
+                <element signature="e#6620#7266#0" expanded="false" />
+                <element signature="e#7355#8373#0" expanded="false" />
+                <element signature="e#8468#8545#0" expanded="false" />
+                <element signature="e#8568#8662#0" expanded="false" />
+                <element signature="e#8674#8818#0" expanded="false" />
+                <element signature="e#10121#10572#0" expanded="false" />
+                <element signature="e#10940#11223#0" expanded="false" />
+                <element signature="e#11877#12850#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -204,7 +213,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55443000" />
+    <option name="totallyTimeSpent" value="55786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -614,11 +623,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="566" column="41" lean-forward="false" selection-start-line="566" selection-start-column="41" selection-end-line="566" selection-end-column="41" />
+        <state relative-caret-position="756">
+          <caret line="571" column="5" lean-forward="false" selection-start-line="571" selection-start-column="5" selection-end-line="571" selection-end-column="5" />
           <folding>
-            <element signature="e#10122#10573#0" expanded="false" />
-            <element signature="e#10941#11224#0" expanded="false" />
+            <element signature="e#4920#5781#0" expanded="false" />
+            <element signature="e#5871#6532#0" expanded="false" />
+            <element signature="e#6620#7266#0" expanded="false" />
+            <element signature="e#7355#8373#0" expanded="false" />
+            <element signature="e#8468#8545#0" expanded="false" />
+            <element signature="e#8568#8662#0" expanded="false" />
+            <element signature="e#8674#8818#0" expanded="false" />
+            <element signature="e#10121#10572#0" expanded="false" />
+            <element signature="e#10940#11223#0" expanded="false" />
+            <element signature="e#11877#12850#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -571,6 +571,11 @@ tr {
         }
     }
 
+    .actions .fade-out {
+        opacity: 1 !important;
+        transition: none !important;
+    }
+
 }
 
 #topic-footer-buttons {

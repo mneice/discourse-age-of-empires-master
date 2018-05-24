@@ -513,8 +513,14 @@ tr {
 
 // Header Menus
 .header-dropdown-toggle {
+    a .fa {
+        color: $white !important;
+    }
     &:hover a {
         background-color: transparent !important;
+        .fa {
+            color: $hover_color !important;
+        }
     }
 }
 

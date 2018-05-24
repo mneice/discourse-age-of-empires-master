@@ -530,6 +530,16 @@ tr {
 }
 
 // Topics
+
+#topic-title {
+    
+    h1, h2, h3, h4, h5, h6,
+    span {
+        color: $light_alt !important;
+    }
+
+}
+
 .topic-body {
     background-image: url($topic_background_image) !important;
     background-repeat: repeat !important;

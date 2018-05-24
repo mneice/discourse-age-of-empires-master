@@ -36,8 +36,8 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="557" column="37" lean-forward="false" selection-start-line="557" selection-start-column="37" selection-end-line="557" selection-end-column="37" />
+            <state relative-caret-position="579">
+              <caret line="556" column="20" lean-forward="false" selection-start-line="556" selection-start-column="20" selection-end-line="556" selection-end-column="20" />
               <folding>
                 <element signature="e#4206#4803#0" expanded="false" />
                 <element signature="e#4817#4839#0" expanded="false" />
@@ -49,9 +49,9 @@
                 <element signature="e#8581#8675#0" expanded="false" />
                 <element signature="e#8687#8831#0" expanded="false" />
                 <element signature="e#9004#9238#0" expanded="false" />
-                <element signature="e#12229#13206#0" expanded="false" />
-                <element signature="e#13231#13369#0" expanded="false" />
-                <element signature="e#13396#13499#0" expanded="false" />
+                <element signature="e#12234#13211#0" expanded="false" />
+                <element signature="e#13236#13374#0" expanded="false" />
+                <element signature="e#13401#13504#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -219,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58855000" />
+    <option name="totallyTimeSpent" value="58905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -629,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="557" column="37" lean-forward="false" selection-start-line="557" selection-start-column="37" selection-end-line="557" selection-end-column="37" />
+        <state relative-caret-position="579">
+          <caret line="556" column="20" lean-forward="false" selection-start-line="556" selection-start-column="20" selection-end-line="556" selection-end-column="20" />
           <folding>
             <element signature="e#4206#4803#0" expanded="false" />
             <element signature="e#4817#4839#0" expanded="false" />
@@ -642,9 +642,9 @@
             <element signature="e#8581#8675#0" expanded="false" />
             <element signature="e#8687#8831#0" expanded="false" />
             <element signature="e#9004#9238#0" expanded="false" />
-            <element signature="e#12229#13206#0" expanded="false" />
-            <element signature="e#13231#13369#0" expanded="false" />
-            <element signature="e#13396#13499#0" expanded="false" />
+            <element signature="e#12234#13211#0" expanded="false" />
+            <element signature="e#13236#13374#0" expanded="false" />
+            <element signature="e#13401#13504#0" expanded="false" />
           </folding>
         </state>
       </provider>

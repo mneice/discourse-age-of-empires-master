@@ -514,7 +514,7 @@ tr {
 // Header Menus
 .header-dropdown-toggle {
     &:hover a {
-        background-color: transparent;
+        background-color: transparent !important;
     }
 }
 

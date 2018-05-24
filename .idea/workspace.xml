@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/common/common.scss" afterPath="$PROJECT_DIR$/common/common.scss" />
+      <change beforePath="$PROJECT_DIR$/images/bkg-btn-red.jpg" afterPath="$PROJECT_DIR$/images/bkg-btn-red.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +27,7 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11055">
+            <state relative-caret-position="803">
               <caret line="335" column="23" lean-forward="false" selection-start-line="335" selection-start-column="20" selection-end-line="335" selection-end-column="23" />
               <folding />
             </state>
@@ -36,20 +37,9 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="574" column="30" lean-forward="true" selection-start-line="574" selection-start-column="30" selection-end-line="574" selection-end-column="30" />
-              <folding>
-                <element signature="e#4920#5781#0" expanded="false" />
-                <element signature="e#5871#6532#0" expanded="false" />
-                <element signature="e#6620#7266#0" expanded="false" />
-                <element signature="e#7355#8373#0" expanded="false" />
-                <element signature="e#8468#8545#0" expanded="false" />
-                <element signature="e#8568#8662#0" expanded="false" />
-                <element signature="e#8674#8818#0" expanded="false" />
-                <element signature="e#10121#10572#0" expanded="false" />
-                <element signature="e#10940#11223#0" expanded="false" />
-                <element signature="e#11877#12850#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="259">
+              <caret line="500" column="4" lean-forward="true" selection-start-line="500" selection-start-column="4" selection-end-line="500" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,6 +101,7 @@
       <find>762123</find>
       <find>bkg-nav-</find>
       <find>stacked</find>
+      <find>widget</find>
       <find>url</find>
     </findStrings>
     <replaceStrings>
@@ -212,7 +203,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56618000" />
+    <option name="totallyTimeSpent" value="57343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -614,7 +605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11055">
+        <state relative-caret-position="803">
           <caret line="335" column="23" lean-forward="false" selection-start-line="335" selection-start-column="20" selection-end-line="335" selection-end-column="23" />
           <folding />
         </state>
@@ -622,20 +613,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="574" column="30" lean-forward="true" selection-start-line="574" selection-start-column="30" selection-end-line="574" selection-end-column="30" />
-          <folding>
-            <element signature="e#4920#5781#0" expanded="false" />
-            <element signature="e#5871#6532#0" expanded="false" />
-            <element signature="e#6620#7266#0" expanded="false" />
-            <element signature="e#7355#8373#0" expanded="false" />
-            <element signature="e#8468#8545#0" expanded="false" />
-            <element signature="e#8568#8662#0" expanded="false" />
-            <element signature="e#8674#8818#0" expanded="false" />
-            <element signature="e#10121#10572#0" expanded="false" />
-            <element signature="e#10940#11223#0" expanded="false" />
-            <element signature="e#11877#12850#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="500" column="4" lean-forward="true" selection-start-line="500" selection-start-column="4" selection-end-line="500" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

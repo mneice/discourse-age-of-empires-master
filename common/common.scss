@@ -202,7 +202,7 @@ pre code {
 
     &:active, &.btn-active {
         text-shadow: none;
-        background: url($bkg-btn-red) no-repeat bottom center !important;;
+        background: url($bkg-btn-red2) no-repeat bottom center !important;;
     }
     &[disabled], &.disabled {
         cursor: default;
@@ -231,20 +231,20 @@ pre code {
     border: none;
     color: $btn_color !important;
     font-weight: normal;
-    background: url($bkg-btn-red) no-repeat top center !important;
+    background: url($bkg-btn-red2) no-repeat top center !important;
 
     &[href] {
         color: $btn_color !important;
     }
     &:hover, &.btn-hover {
-        background: url($bkg-btn-red) no-repeat bottom center !important;
+        background: url($bkg-btn-red2) no-repeat bottom center !important;
         color: $btn_hover_color !important;;
     }
     &[disabled], &.disabled {
-        background: url($bkg-btn-red) no-repeat top center !important;
+        background: url($bkg-btn-red2) no-repeat top center !important;
         color:$btn_disabled_color !important;
         &:hover {
-            background: url($bkg-btn-red) no-repeat bottom center;
+            background: url($bkg-btn-red2) no-repeat bottom center;
             color: $btn_disabled_color !important;
         }
         cursor: not-allowed;
@@ -269,21 +269,21 @@ pre code {
     border: none;
     font-weight: normal;
     color: $white !important;
-    background: url($bkg-btn-red) no-repeat top center !important;
+    background: url($bkg-btn-red2) no-repeat top center !important;
 
     &[href] {
         color: $btn_color !important;
     }
     &:hover, &.btn-hover {
         color: $btn_hover_color !important;
-        background: url($bkg-btn-red) no-repeat bottom center !important;
+        background: url($bkg-btn-red2) no-repeat bottom center !important;
     }
     &:active, &.btn-active {
         color: $btn_active_color !important;
-        background: url($bkg-btn-red) no-repeat bottom center !important;
+        background: url($bkg-btn-red2) no-repeat bottom center !important;
     }
     &[disabled], &.disabled {
-        background: url($bkg-btn-red) no-repeat top center !important;
+        background: url($bkg-btn-red2) no-repeat top center !important;
         color: $btn_disabled_color !important;
     }
 }
@@ -296,20 +296,20 @@ pre code {
 .btn-danger {
     color: $btn_color !important;
     font-weight: normal;
-    background: url($bkg-btn-red) no-repeat top center !important;
+    background: url($bkg-btn-red2) no-repeat top center !important;
     &[href] {
         color: $btn_color !important;
     }
     &:hover, &.btn-hover {
-        background: url($bkg-btn-red) no-repeat bottom center !important;
+        background: url($bkg-btn-red2) no-repeat bottom center !important;
         color: $btn_hover_color !important;
     }
     &:active, &.btn-active {
-        background: url($bkg-btn-red) no-repeat bottom center !important;
+        background: url($bkg-btn-red2) no-repeat bottom center !important;
         color: $btn_active_color !important;
     }
     &[disabled], &.disabled {
-        background: url($bkg-btn-red) no-repeat top center !important;
+        background: url($bkg-btn-red2) no-repeat top center !important;
         color: $btn_disabled_color !important;
     }
 }
@@ -501,6 +501,7 @@ th {
 tr {
     &:nth-of-type(2n) {
         background-color: $tr_background_color_2n !important;
+        color: $black !important;
     }
     &:hover {
         background-color: $tr_hover_background_color !important;
@@ -542,20 +543,20 @@ tr {
         border: none;
         color: $btn_color !important;
         font-weight: normal;
-        background: url($bkg-btn-red) no-repeat top center !important;
+        background: url($bkg-btn-red2) no-repeat top center !important;
 
         &[href] {
             color: $btn_color !important;
         }
         &:hover, &.btn-hover {
-            background: url($bkg-btn-red) no-repeat bottom center !important;
+            background: url($bkg-btn-red2) no-repeat bottom center !important;
             color: $btn_hover_color !important;;
         }
         &[disabled], &.disabled {
-            background: url($bkg-btn-red) no-repeat top center !important;
+            background: url($bkg-btn-red2) no-repeat top center !important;
             color:$btn_disabled_color !important;
             &:hover {
-                background: url($bkg-btn-red) no-repeat bottom center;
+                background: url($bkg-btn-red2) no-repeat bottom center;
                 color: $btn_disabled_color !important;
             }
             cursor: not-allowed;
@@ -574,6 +575,9 @@ tr {
     .actions .fade-out {
         opacity: 1 !important;
         transition: none !important;
+        &:hover {
+            opacity: 1 !important;
+        }
     }
 
 }

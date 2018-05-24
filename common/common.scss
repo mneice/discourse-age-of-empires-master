@@ -479,6 +479,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+
+// Tables
 th {
     background-color: $th_background_color !important;
     background-image: url($bkg-rock-01) !important;
@@ -504,6 +506,14 @@ tr {
         td .fa {
             color: $table_hover_color !important;
         }
+    }
+}
+
+
+// Header Menus
+.header-dropdown-toggle {
+    &:hover {
+        background-color: transparent;
     }
 }
 

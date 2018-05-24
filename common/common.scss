@@ -46,6 +46,7 @@ $btn_hover_color: #f1e9d0;
 $btn_active_color: #f4d03f;
 $btn_disabled_color: #aaaaaa;
 $input_description_color: #4B4631;
+$input_border_focus_color: #762123;
 
 // Brand color variables from variables.css
 // --------------------------------------------------
@@ -392,13 +393,19 @@ pre code {
 
 
 // Input Fields
+.select-kit-body,
 textarea,
 input,
 .select-kit-collection,
 .is-focused,
-.combo-box-header{
+.combo-box-header {
     background: $white !important;
     box-shadow: none !important;
+    &:focus {
+        background: $white !important;
+        box-shadow: none !important;
+        border-color: $input_border_focus_color;
+    }
 }
 
 // Input setting description

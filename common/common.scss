@@ -414,6 +414,11 @@ input,
 
 }
 
+.select-kit .select-kit-row.is-highlighted {
+    background-color: $input_border_focus_color;
+    color: $white;
+}
+
     // Input setting description
 .settings .setting .desc {
     color: $input_description_color;

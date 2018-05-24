@@ -398,8 +398,9 @@ textarea,
 input,
 .select-kit-collection,
 .is-focused,
-.is-expanded, 
-.combo-box-header {
+.is-expanded,
+.combo-box-header,
+.select-kit-filter.multi-select-filter {
     background: $white !important;
     box-shadow: none !important;
     &:focus {

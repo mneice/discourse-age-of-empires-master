@@ -545,5 +545,14 @@ tr {
         color: $a_alt !important;
     }
 }
+
+#suggested-topics {
+    h1, h2, h3, h4, h5, h6 {
+        color: $light_alt;
+    }
+    a {
+        color: $a_alt;
+    }
+}
 //
 

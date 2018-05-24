@@ -537,7 +537,9 @@ tr {
 }
 
 #topic-footer-buttons {
-    color: $light_alt !important;
+    p {
+        color: $light_alt !important;
+    }
 }
 //
 

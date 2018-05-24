@@ -482,22 +482,25 @@ h1, h2, h3, h4, h5, h6 {
 
 th {
     background-color: $th_background_color !important;
-    background-image: url($bkg-rock-01);
-    background-position: top center;
-    background-repeat: repeat;
-    color: $th_color;
+    background-image: url($bkg-rock-01) !important;
+    background-position: top center !important;
+    background-repeat: repeat !important;
+    color: $th_color !important;
+    .fa {
+        color: $th_color !important;
+    }
     a {
-        color: $th_a_color;
+        color: $th_a_color !important;
     }
 }
 
 tr {
     &:nth-of-type(2n) {
-        background-color: $tr_background_color_2n;
+        background-color: $tr_background_color_2n !important;
     }
     &:hover {
-        color: $tr_hover_color;
-        background-color: $tr_hover_background_color;
+        color: $tr_hover_color !important;
+        background-color: $tr_hover_background_color !important;
     }
 }
 

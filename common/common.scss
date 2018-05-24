@@ -395,7 +395,8 @@ pre code {
 textarea,
 input,
 .select-kit-collection,
-.setting .is-focused {
+.is-focused,
+.combo-box-header{
     background: $white !important;
     box-shadow: none !important;
 }

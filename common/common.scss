@@ -515,11 +515,13 @@ tr {
 .header-dropdown-toggle {
     a .fa {
         color: $white !important;
+        opacity: 1 !important;
     }
     &:hover a {
         background-color: transparent !important;
         .fa {
             color: $hover_color !important;
+            opacity: 1 !important;
         }
     }
 }

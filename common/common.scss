@@ -554,6 +554,9 @@ tr {
 
     .topic-meta-data {
         color: $black !important;
+        a, span {
+            color: $black !important;
+        }
     }
 
     // Widget button CUSTOM STYLE

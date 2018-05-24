@@ -398,7 +398,8 @@ pre code {
 .select-kit .select-kit-collection,
 .select-kit.combo-box .select-kit-header,
 .select-kit.multi-select .choices .filter .filter-input,
-.select-kit.multi-select .choices .filter .filter-input:focus {
+.select-kit.multi-select .choices .filter .filter-input:focus,
+input {
     background: $white !important;
 }
 

@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="671">
-              <caret line="401" column="34" lean-forward="true" selection-start-line="401" selection-start-column="34" selection-end-line="401" selection-end-column="34" />
+              <caret line="401" column="6" lean-forward="false" selection-start-line="401" selection-start-column="6" selection-end-line="401" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -199,7 +199,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46028000" />
+    <option name="totallyTimeSpent" value="46640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -602,7 +602,7 @@
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
-          <caret line="401" column="34" lean-forward="true" selection-start-line="401" selection-start-column="34" selection-end-line="401" selection-end-column="34" />
+          <caret line="401" column="6" lean-forward="false" selection-start-line="401" selection-start-column="6" selection-end-line="401" selection-end-column="6" />
           <folding />
         </state>
       </provider>

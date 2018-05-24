@@ -30,6 +30,7 @@ $love: #ec7063;                 // The like button's color.
 
 // Custom Colors and Variables
 $a_color: #762123;
+$a_alt: #f4d03f;
 $white: #ffffff;
 $off_white: #c4c4c4;
 $black: #000000;
@@ -541,7 +542,7 @@ tr {
         color: $light_alt !important;
     }
     a {
-        color: $white !important;
+        color: $a_alt !important;
     }
 }
 //

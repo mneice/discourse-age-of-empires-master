@@ -28,10 +28,8 @@ $danger: #990000;               // Highlight color for actions like deleting pos
 $success: #009900;              // Used to indicate an action was successful.
 $love: #ec7063;                 // The like button's color.
 
-// Base Colors
-$a_color: #762123;
-
 // Custom Colors and Variables
+$a_color: #762123;
 $white: #ffffff;
 $off_white: #c4c4c4;
 $black: #000000;
@@ -58,6 +56,9 @@ $th_color: #ffffff;
 $th_a_color: #f4d03f;
 $tr_background_color_2n: rgba(68,37,4,0.08);
 $tr_hover_background_color: #762123;
+
+// Forum Topic Colors
+$topic_background_image: $texture-papyrus;
 
 
 // Brand color variables from variables.css
@@ -525,4 +526,12 @@ tr {
         }
     }
 }
+
+// Topics
+.topic-body {
+    background-image: url($topic_background_image);
+    background-repeat: repeat;
+    background-position: top center;
+}
+//
 

@@ -689,7 +689,10 @@ section#topic {
             margin: 20px !important;
         }
         .secondary {
-            a {
+            dd {
+                color: $black !important;
+            }
+            dt {
                 color: $a_color !important;
             }
         }

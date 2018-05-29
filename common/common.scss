@@ -686,6 +686,7 @@ section#topic {
         background-color: $user_main_background_color !important;
         .primary {
             background-color: dodgerblue !important;
+            width: calc(100% - 100px);
         }
     }
 

@@ -734,5 +734,10 @@ section#topic {
     button {
         padding: 5px !important;
         color: white !important;
+        h2,
+        h2 span,
+        i {
+            color: white !important;
+        }
     }
 }

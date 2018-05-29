@@ -65,6 +65,8 @@ $topic_background_image: $texture-papyrus;
 // User Main
 $user_main_background_image: $texture-papyrus;
 $user_main_background_color: #fdf8e2;
+$user_main_dt: $black;
+$user_main_dd: #777777;
 
 
 // Brand color variables from variables.css
@@ -694,11 +696,14 @@ section#topic {
     .secondary {
         dl {
             dt {
-                color: $black !important;
+                color: $user_main_dt !important;
             }
             dd {
-                color: $a_color !important;
+                color: $user_main_dd !important;
                 span {
+                    color: $user_main_dd !important;
+                }
+                a {
                     color: $a_color !important;
                 }
             }

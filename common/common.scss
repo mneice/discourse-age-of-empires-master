@@ -739,5 +739,15 @@ section#topic {
         i {
             color: white !important;
         }
+
+        &.is-focused {
+
+            h2,
+            h2 span,
+            i {
+                color: $black !important;
+            }
+
+        }
     }
 }

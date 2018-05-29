@@ -689,12 +689,16 @@ section#topic {
             margin: 20px !important;
         }
         .secondary {
-            dd {
+            dt {
                 color: $black !important;
             }
-            dt {
+            dd {
                 color: $a_color !important;
+                span {
+                    color: $a_color !important;
+                }
             }
+
         }
     }
 

@@ -688,6 +688,11 @@ section#topic {
             width: calc(100% - 40px) !important;
             margin: 20px !important;
         }
+        .secondary {
+            a {
+                color: $a_color !important;
+            }
+        }
     }
 
     .wrapper {

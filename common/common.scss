@@ -765,17 +765,26 @@ section#topic {
     }
     .select-kit-body {
         li {
+            span {
+                color: $black;
+            }
             &.is-focused {
-                color: $is_focused_color !important;
                 background-color: $is_focused_bkg !important;
+                span {
+                    color: $is_focused_color !important;
+                }
             }
             &.is-highlighted {
-                color: $is_highlighted_color !important;
                 background-color: $is_highlighted_bkg !important;
+                span {
+                    color: $is_highlighted_color !important;
+                }
             }
             &.is-selected {
-                color: $is_selected_color !important;
                 background-color: $is_selected_bkg !important;
+                span {
+                    color: $is_selected_color !important;
+                }
             }
         }
     }

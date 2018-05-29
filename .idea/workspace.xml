@@ -36,8 +36,8 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="777" column="62" lean-forward="false" selection-start-line="777" selection-start-column="62" selection-end-line="777" selection-end-column="62" />
+            <state relative-caret-position="480">
+              <caret line="785" column="57" lean-forward="false" selection-start-line="785" selection-start-column="57" selection-end-line="785" selection-end-column="57" />
               <folding>
                 <element signature="e#4555#5152#0" expanded="false" />
                 <element signature="e#5166#5188#0" expanded="false" />
@@ -245,12 +245,12 @@
       <workItem from="1525198227560" duration="601000" />
       <workItem from="1527011042592" duration="2473000" />
       <workItem from="1527281637390" duration="657000" />
-      <workItem from="1527606942437" duration="6401000" />
+      <workItem from="1527606942437" duration="6502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66610000" />
+    <option name="totallyTimeSpent" value="66711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -646,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="777" column="62" lean-forward="false" selection-start-line="777" selection-start-column="62" selection-end-line="777" selection-end-column="62" />
+        <state relative-caret-position="480">
+          <caret line="785" column="57" lean-forward="false" selection-start-line="785" selection-start-column="57" selection-end-line="785" selection-end-column="57" />
           <folding>
             <element signature="e#4555#5152#0" expanded="false" />
             <element signature="e#5166#5188#0" expanded="false" />

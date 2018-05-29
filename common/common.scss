@@ -688,20 +688,22 @@ section#topic {
             width: calc(100% - 40px) !important;
             margin: 20px !important;
         }
-        .secondary {
-           dl {
-               dt {
-                   color: $black !important;
-               }
-               dd {
-                   color: $a_color !important;
-                   span {
-                       color: $a_color !important;
-                   }
-               }
-           }
 
+    }
+
+    .secondary {
+        dl {
+            dt {
+                color: $black !important;
+            }
+            dd {
+                color: $a_color !important;
+                span {
+                    color: $a_color !important;
+                }
+            }
         }
+
     }
 
     .wrapper {

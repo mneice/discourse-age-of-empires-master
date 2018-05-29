@@ -550,16 +550,51 @@ footer#aoe-footer {
   background-position: top center;
   background-repeat: repeat;
 
-  #aoe-footer-logo {
+  #aoe-footer-logo-wrapper {
     display: block;
-    width: 61.30208vw;
-    height: 8.07292vw;
-    margin: 0 auto;
-    padding: 0;
-    background-image: url($footer-logo);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 4.2vw;
+    #aoe-footer-logo {
+      display: block;
+      width: 61.30208vw;
+      height: 8.07292vw;
+      margin: 0 auto;
+      padding: 0;
+      background-image: url($footer-logo);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .footer-links.secondary {
+    text-align: center;
+    color: white;
+    font-family: font-family: Source Sans Pro,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 31px;
+    ul {
+      margin: 0;
+      display: block;
+      list-style: none;
+      li {
+        display: inline-block;
+        padding: 0 8px;
+        border-right: 1px solid white;
+        &:last-of-type {
+          border-right: none;
+        }
+
+        a {
+          font-family: font-family: Source Sans Pro,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+          font-size: 31px;
+          color: white !important;
+          &:hover {
+            color: white !important;
+          }
+        }
+
+      }
+    }
   }
 
 }

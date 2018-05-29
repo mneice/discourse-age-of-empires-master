@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/common/common.scss" afterPath="$PROJECT_DIR$/common/common.scss" />
+      <change beforePath="$PROJECT_DIR$/common/footer.html" afterPath="$PROJECT_DIR$/common/footer.html" />
+      <change beforePath="$PROJECT_DIR$/desktop/desktop.scss" afterPath="$PROJECT_DIR$/desktop/desktop.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,20 +24,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11484">
-              <caret line="372" column="2" lean-forward="false" selection-start-line="372" selection-start-column="2" selection-end-line="372" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
+            <state relative-caret-position="1960">
               <caret line="75" column="28" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
               <folding>
                 <element signature="e#4551#5148#0" expanded="false" />
@@ -57,27 +48,16 @@
                 <element signature="e#13819#13922#0" expanded="false" />
                 <element signature="e#13942#14904#0" expanded="false" />
                 <element signature="e#14925#15016#0" expanded="false" />
-                <element signature="e#16044#16460#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head_tag.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/head_tag.html">
+      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="after_header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/after_header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="596">
+              <caret line="588" column="26" lean-forward="false" selection-start-line="588" selection-start-column="26" selection-end-line="588" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -86,29 +66,11 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/colors.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="132">
+              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="38" />
+              <folding>
+                <element signature="e#570#576#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,7 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header_background</find>
       <find>primary</find>
       <find>main</find>
       <find>221b16</find>
@@ -145,6 +106,8 @@
       <find>$bkg-btn-red</find>
       <find>shadow</find>
       <find>background-image</find>
+      <find>$bkg-nav-gold-bar-top</find>
+      <find>aoe-footer</find>
       <find>$topic_background_image</find>
     </findStrings>
     <replaceStrings>
@@ -166,9 +129,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/colors.scss" />
         <option value="$PROJECT_DIR$/common/_variables-custom.scss" />
-        <option value="$PROJECT_DIR$/desktop/desktop.scss" />
         <option value="$PROJECT_DIR$/common/after_header.html" />
         <option value="$PROJECT_DIR$/common/common.scss" />
+        <option value="$PROJECT_DIR$/common/footer.html" />
+        <option value="$PROJECT_DIR$/desktop/desktop.scss" />
       </list>
     </option>
   </component>
@@ -245,12 +209,12 @@
       <workItem from="1525198227560" duration="601000" />
       <workItem from="1527011042592" duration="2473000" />
       <workItem from="1527281637390" duration="657000" />
-      <workItem from="1527606942437" duration="6592000" />
+      <workItem from="1527606942437" duration="8335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66801000" />
+    <option name="totallyTimeSpent" value="68544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -318,7 +282,6 @@
             <element signature="e#13819#13922#0" expanded="false" />
             <element signature="e#13942#14904#0" expanded="false" />
             <element signature="e#14925#15016#0" expanded="false" />
-            <element signature="e#16044#16460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -558,14 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -604,14 +559,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/_variables-custom.scss" />
     <entry file="file://$PROJECT_DIR$/common/customvars.scss" />
-    <entry file="file://$PROJECT_DIR$/common/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/head_tag.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -628,14 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11484">
-          <caret line="372" column="2" lean-forward="false" selection-start-line="372" selection-start-column="2" selection-end-line="372" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AgeOfEmpires2017/wp-content/themes/msgpwebteam/assets/styles/common/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-462">
@@ -644,9 +583,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="1960">
           <caret line="75" column="28" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
           <folding>
             <element signature="e#4551#5148#0" expanded="false" />
@@ -667,8 +614,25 @@
             <element signature="e#13819#13922#0" expanded="false" />
             <element signature="e#13942#14904#0" expanded="false" />
             <element signature="e#14925#15016#0" expanded="false" />
-            <element signature="e#16044#16460#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="e#570#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="588" column="26" lean-forward="false" selection-start-line="588" selection-start-column="26" selection-end-line="588" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

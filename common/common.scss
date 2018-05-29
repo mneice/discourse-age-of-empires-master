@@ -62,6 +62,10 @@ $tr_hover_background_color: #762123;
 $topic_background_color: #fdf8e2;
 $topic_background_image: $texture-papyrus;
 
+// User Main
+$user_main_background_image: $texture-papyrus;
+$user_main_background_color: #fdf8e2;
+
 
 // Brand color variables from variables.css
 // --------------------------------------------------
@@ -673,3 +677,12 @@ section#topic {
     }
 }
 
+
+// User Main
+.user-main {
+    .wrapper {
+        padding: 10px;
+        background-image: url($user_main_background_image);
+        background-color: $user_main_background_color;
+    }
+}

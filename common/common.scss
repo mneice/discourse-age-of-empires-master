@@ -69,6 +69,15 @@ $user_main_dt: $black;
 $user_main_dd: #221b16;
 
 
+// Select Kit Body
+$is_focused_bkg: rgba(0,0,0,0.5);
+$is_focused_color: white;
+$is_highlighted_bkg:  #762123;
+$is_highlighted_color:  #762123;
+$is_selected_bkg: $light_alt;
+$is_selected_color: $black;
+
+
 // Brand color variables from variables.css
 // --------------------------------------------------
 
@@ -750,6 +759,24 @@ section#topic {
                 color: $black !important;
             }
 
+        }
+
+
+    }
+    .select-kit-body {
+        li {
+            &.is-focused {
+                color: $is_focused_color;
+                background-color: $is_focused_bkg;
+            }
+            &.is-highlighted {
+                color: $is_highlighted_color;
+                background-color: $is_highlighted_bkg;
+            }
+            &.is-selected {
+                color: $is_selected_color;
+                background-color: $is_selected_bkg;
+            }
         }
     }
 }

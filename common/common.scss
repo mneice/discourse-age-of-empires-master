@@ -682,8 +682,8 @@ section#topic {
 .user-main {
 
     .details {
-        background-image: url($user_main_background_image);
-        background-color: $user_main_background_color;
+        background-image: url($user_main_background_image) !important;
+        background-color: $user_main_background_color !important;
     }
 
     .wrapper {

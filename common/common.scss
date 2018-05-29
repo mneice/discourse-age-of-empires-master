@@ -686,6 +686,11 @@ section#topic {
 
         .top-section {
             padding: 20px;
+
+            .user-stat .label {
+                color: $black;
+            }
+
         }
 
     }

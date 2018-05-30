@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/common/common.scss" afterPath="$PROJECT_DIR$/common/common.scss" />
-      <change beforePath="$PROJECT_DIR$/common/footer.html" afterPath="$PROJECT_DIR$/common/footer.html" />
       <change beforePath="$PROJECT_DIR$/desktop/desktop.scss" afterPath="$PROJECT_DIR$/desktop/desktop.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,15 +63,15 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="647" column="47" lean-forward="false" selection-start-line="647" selection-start-column="47" selection-end-line="647" selection-end-column="47" />
+            <state relative-caret-position="363">
+              <caret line="642" column="6" lean-forward="false" selection-start-line="642" selection-start-column="6" selection-end-line="642" selection-end-column="6" />
               <folding>
                 <element signature="e#10732#12415#0" expanded="false" />
                 <element signature="e#12437#12492#0" expanded="false" />
                 <element signature="e#12549#12611#0" expanded="false" />
                 <element signature="e#13127#13294#0" expanded="false" />
                 <element signature="e#14044#14404#0" expanded="false" />
-                <element signature="e#15610#16424#0" expanded="false" />
+                <element signature="e#15804#16618#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -226,12 +224,12 @@
       <workItem from="1527011042592" duration="2473000" />
       <workItem from="1527281637390" duration="657000" />
       <workItem from="1527606942437" duration="8459000" />
-      <workItem from="1527699998707" duration="6258000" />
+      <workItem from="1527699998707" duration="6364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74926000" />
+    <option name="totallyTimeSpent" value="75032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -345,7 +343,7 @@
             <element signature="e#12549#12611#0" expanded="false" />
             <element signature="e#13127#13294#0" expanded="false" />
             <element signature="e#14044#14404#0" expanded="false" />
-            <element signature="e#15610#16424#0" expanded="false" />
+            <element signature="e#15804#16618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -377,7 +375,7 @@
             <element signature="e#12549#12611#0" expanded="false" />
             <element signature="e#13127#13294#0" expanded="false" />
             <element signature="e#14044#14404#0" expanded="false" />
-            <element signature="e#15610#16424#0" expanded="false" />
+            <element signature="e#15804#16618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -461,7 +459,7 @@
             <element signature="e#12549#12611#0" expanded="false" />
             <element signature="e#13127#13294#0" expanded="false" />
             <element signature="e#14044#14404#0" expanded="false" />
-            <element signature="e#15610#16424#0" expanded="false" />
+            <element signature="e#15804#16618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -500,7 +498,7 @@
             <element signature="e#12549#12611#0" expanded="false" />
             <element signature="e#13127#13294#0" expanded="false" />
             <element signature="e#14044#14404#0" expanded="false" />
-            <element signature="e#15610#16424#0" expanded="false" />
+            <element signature="e#15804#16618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -532,7 +530,7 @@
             <element signature="e#12549#12611#0" expanded="false" />
             <element signature="e#13127#13294#0" expanded="false" />
             <element signature="e#14044#14404#0" expanded="false" />
-            <element signature="e#15610#16424#0" expanded="false" />
+            <element signature="e#15804#16618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -690,15 +688,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="647" column="47" lean-forward="false" selection-start-line="647" selection-start-column="47" selection-end-line="647" selection-end-column="47" />
+        <state relative-caret-position="363">
+          <caret line="642" column="6" lean-forward="false" selection-start-line="642" selection-start-column="6" selection-end-line="642" selection-end-column="6" />
           <folding>
             <element signature="e#10732#12415#0" expanded="false" />
             <element signature="e#12437#12492#0" expanded="false" />
             <element signature="e#12549#12611#0" expanded="false" />
             <element signature="e#13127#13294#0" expanded="false" />
             <element signature="e#14044#14404#0" expanded="false" />
-            <element signature="e#15610#16424#0" expanded="false" />
+            <element signature="e#15804#16618#0" expanded="false" />
           </folding>
         </state>
       </provider>

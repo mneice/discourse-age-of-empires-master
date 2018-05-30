@@ -635,8 +635,22 @@ footer#aoe-footer {
       display: inline-block;
       margin: 0;
       padding: 0 8px;
+      vertical-align: top;
+
       .location {
         font-weight: bold;
+      }
+      
+      ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          display: block;
+        }
+
       }
     }
 

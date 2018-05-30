@@ -496,7 +496,7 @@ ul.nav {
 
 }
 
-.modal .nav {
+#discourse-modal.modal .nav.nav-pills {
   padding: 0 !important;
   &:before {
     z-index: 2 !important;

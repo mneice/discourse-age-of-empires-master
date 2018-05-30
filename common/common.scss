@@ -79,6 +79,12 @@ $content_body_page_background_image: $texture-papyrus;
 $content_container_background_color: #fdf8e2;
 $content_container_background_image: $texture-papyrus;
 
+// Backgrounds
+$background_image_dark: $bkg-nav-brown;
+$background_color_dark: #221b16;
+
+
+
 // Select Kit Body
 $is_focused_bkg: rgba(0,0,0,0.5);
 $is_focused_color: white;
@@ -497,6 +503,9 @@ h1, h2, h3, h4, h5, h6 {
 
 // CUSTOM STYLES -> Navigation
 .nav.nav-stacked {
+    background-color: $background_color_dark;
+    background-image: url($background_image_dark);
+    background-repeat: repeat;
     a {
         color: $light_alt;
         &.active {
@@ -842,7 +851,7 @@ section#topic {
 }
 
 // Group Moderators Page
-.container.group.moderators {
+.container.group {
     .nav-pills {
         overflow: visible !important;
     }
@@ -851,6 +860,13 @@ section#topic {
         background-color: $list_controls_input_background_color !important;
         color: $list_controls_input_color !important;
         margin-right: 15px;
+    }
+
+    ul.group-nav {
+        background-color: $background_color_dark;
+        background-image: url($background_image_dark);
+        background-repeat: repeat;
+
     }
 
 }

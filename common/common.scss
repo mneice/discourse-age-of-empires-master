@@ -71,6 +71,9 @@ $user_main_background_color: #fdf8e2;
 $user_main_dt: $black;
 $user_main_dd: #221b16;
 
+// Content Body Page
+$content_body_page_background_color: #fdf8e2;
+$content_body_page_background_image: $texture-papyrus;
 
 // Select Kit Body
 $is_focused_bkg: rgba(0,0,0,0.5);
@@ -801,4 +804,11 @@ section#topic {
             }
         }
     }
+}
+
+// Content Body Page
+.contents.body-page {
+    background-color: $content_body_page_background_color !important;
+    background-image: url($content_body_page_background_image) !important;
+    background-repeat: repeat !important;
 }

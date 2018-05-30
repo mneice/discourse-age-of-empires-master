@@ -420,7 +420,7 @@ ul.nav {
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 1;
+      z-index: 1 !important;
     }
 
     &:after {
@@ -433,13 +433,13 @@ ul.nav {
       background-repeat: no-repeat;
       width: 5px;
       height: 29px;
-      z-index: 2;
+      z-index: 2 !important;
     }
 
     li {
       position: relative;
       padding-right: 5px;
-      z-index: 1;
+      z-index: 1 !important;
 
       &:last-of-type {
         padding-right: 0;
@@ -458,7 +458,7 @@ ul.nav {
           background-repeat: no-repeat;
           width: 5px;
           height: 29px;
-          z-index: 2;
+          z-index: 2 !important;
         }
 
       }
@@ -473,7 +473,7 @@ ul.nav {
         background-repeat: no-repeat;
         width: 5px;
         height: 29px;
-        z-index: 2;
+        z-index: 2 !important;
       }
       &:last-of-type:after {
         display: none;

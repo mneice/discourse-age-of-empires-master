@@ -577,6 +577,46 @@ footer#aoe-footer {
     }
   }
 
+  .footer-links.primary {
+    // styles
+    .esrb {
+      // styles
+      color: white !important;
+      font-size: 11px;
+      .rating {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+        height: 81px;
+        background-image: url();
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: $black;
+        border: none;
+      }
+      .info {
+        display: inline-block;
+        margin: 0;
+        padding: 0 8px;
+        height: auto;
+        text-align: center;
+        span.location {
+
+        }
+        ul {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+
+          li {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
   .footer-links.secondary {
     text-align: center !important;
     color: white !important;

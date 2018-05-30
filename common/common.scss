@@ -930,8 +930,19 @@ section#topic {
     }
 
 
-    .group-activity-nav {
-  
+    ul.group-activity-nav {
+        li {
+            padding-right: 10px !important;
+            padding-left: 10px !important;
+            border-bottom: 1px solid $light_alt !important;
+            &:last-of-type {
+                border-bottom: 1px solid transparent !important;
+            }
+        }
+    }
+
+    .group-activity-outlet {
+        padding-left: 20px !important;
     }
 
 

@@ -31,6 +31,7 @@ $love: #ff1493;                 // The like button's color.
 // Custom Colors and Variables
 $a_color: #762123;
 $a_alt: #f4d03f;
+$a_alt2: #ffffff;
 $white: #ffffff;
 $off_white: #c4c4c4;
 $black: #000000;
@@ -685,6 +686,13 @@ section#topic {
     h1, h2, h3, h4, h5, h6,
     span, .fa {
         color: $light_alt !important;
+    }
+
+    a {
+        color: $a_alt2 !important;
+        &:hover {
+            color: $a_alt2 !important;
+        }
     }
 }
 

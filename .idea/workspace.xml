@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="704">
-              <caret line="815" column="33" lean-forward="false" selection-start-line="815" selection-start-column="33" selection-end-line="815" selection-end-column="33" />
+              <caret line="819" column="0" lean-forward="true" selection-start-line="819" selection-start-column="0" selection-end-line="819" selection-end-column="0" />
               <folding>
                 <element signature="e#4785#5382#0" expanded="false" />
                 <element signature="e#5396#5418#0" expanded="false" />
@@ -227,12 +227,12 @@
       <workItem from="1527011042592" duration="2473000" />
       <workItem from="1527281637390" duration="657000" />
       <workItem from="1527606942437" duration="8459000" />
-      <workItem from="1527699998707" duration="11411000" />
+      <workItem from="1527699998707" duration="11569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80079000" />
+    <option name="totallyTimeSpent" value="80237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -690,7 +690,7 @@
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
-          <caret line="815" column="33" lean-forward="false" selection-start-line="815" selection-start-column="33" selection-end-line="815" selection-end-column="33" />
+          <caret line="819" column="0" lean-forward="true" selection-start-line="819" selection-start-column="0" selection-end-line="819" selection-end-column="0" />
           <folding>
             <element signature="e#4785#5382#0" expanded="false" />
             <element signature="e#5396#5418#0" expanded="false" />

@@ -812,8 +812,11 @@ section#topic {
     background-image: url($content_body_page_background_image) !important;
     background-repeat: repeat !important;
 
-    section {
+    section,
+    div[itemprop] {
         padding: 20px !important;
     }
+
+
 
 }

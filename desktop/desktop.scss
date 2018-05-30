@@ -618,6 +618,11 @@ footer#aoe-footer {
         width: auto;
         height: 250px;
         background-color: dodgerblue;
+        margin-right: 32px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
 
         .flex-row {
           justify-content: flex-start;
@@ -640,7 +645,7 @@ footer#aoe-footer {
       .location {
         font-weight: bold;
       }
-      
+
       ul {
         display: block;
         margin: 0;

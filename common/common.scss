@@ -859,7 +859,25 @@ section#topic {
     padding: 20px;
 
     .fps-result {
-        background-color: #f7f7f7;
+        background-color: $background_color_dark !important;
+        background-image: url($background_image_dark) !important;
+        color: $light_alt !important;
+
+        .topic {
+
+            .search-link {
+
+                .topic-title {
+
+                    color: white !important;
+
+
+                }
+
+            }
+
+        }
+
     }
 
 

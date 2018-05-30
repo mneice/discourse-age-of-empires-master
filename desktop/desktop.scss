@@ -725,6 +725,7 @@ footer#aoe-footer {
         display: inline-block !important;
         padding: 0 8px !important;
         border-right: 1px solid white !important;
+        border-color: $footer_color !important;
         &:last-of-type {
           border-right: none !important;
         }

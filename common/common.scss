@@ -75,6 +75,10 @@ $user_main_dd: #221b16;
 $content_body_page_background_color: #fdf8e2;
 $content_body_page_background_image: $texture-papyrus;
 
+// Show Badge
+$content_show_badge_background_color: #fdf8e2;
+$content_show_badge_background_image: $texture-papyrus;
+
 // Select Kit Body
 $is_focused_bkg: rgba(0,0,0,0.5);
 $is_focused_color: white;
@@ -818,6 +822,12 @@ section#topic {
         padding: 20px !important;
     }
 
+}
 
-
+// Badges
+.container.show-badge {
+    background-color: $content_show_badge_background_color !important;
+    background-image: url($content_show_badge_background_image) !important;
+    background-repeat: repeat !important;
+    padding: 20px;
 }

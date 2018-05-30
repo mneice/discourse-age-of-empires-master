@@ -850,6 +850,16 @@ section#topic {
     }
 }
 
+
+// Sections
+.search-container {
+    background-color: $content_container_background_color !important;
+    background-image: url($content_container_background_image) !important;
+    background-repeat: repeat !important;
+    padding: 20px;
+}
+
+
 // Group Moderators Page
 .container.group {
     .nav-pills {

@@ -610,14 +610,11 @@ footer#aoe-footer {
       align-content: flex-start;
 
       width: 100%;
-      border: 1px dashed yellow;
-
 
       .flex-col {
         flex: 0 1 auto;
         width: auto;
-        height: 250px;
-        background-color: dodgerblue;
+        height: auto;
         margin-right: 32px;
 
         &:last-of-type {

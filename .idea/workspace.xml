@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/desktop/desktop.scss" afterPath="$PROJECT_DIR$/desktop/desktop.scss" />
-      <change beforePath="$PROJECT_DIR$/images/studios-logo.svg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="672" column="19" lean-forward="true" selection-start-line="672" selection-start-column="19" selection-end-line="672" selection-end-column="19" />
+            <state relative-caret-position="101">
+              <caret line="663" column="5" lean-forward="true" selection-start-line="663" selection-start-column="5" selection-end-line="663" selection-end-column="5" />
               <folding>
                 <element signature="e#10732#12415#0" expanded="false" />
                 <element signature="e#12437#12492#0" expanded="false" />
@@ -225,12 +224,12 @@
       <workItem from="1527011042592" duration="2473000" />
       <workItem from="1527281637390" duration="657000" />
       <workItem from="1527606942437" duration="8459000" />
-      <workItem from="1527699998707" duration="7621000" />
+      <workItem from="1527699998707" duration="7681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76289000" />
+    <option name="totallyTimeSpent" value="76349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -689,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="672" column="19" lean-forward="true" selection-start-line="672" selection-start-column="19" selection-end-line="672" selection-end-column="19" />
+        <state relative-caret-position="101">
+          <caret line="663" column="5" lean-forward="true" selection-start-line="663" selection-start-column="5" selection-end-line="663" selection-end-column="5" />
           <folding>
             <element signature="e#10732#12415#0" expanded="false" />
             <element signature="e#12437#12492#0" expanded="false" />

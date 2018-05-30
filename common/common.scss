@@ -866,12 +866,15 @@ section#topic {
 
         .group-dropdown {
 
-            .select-kit-header {
+            .select-kit-header,
+            .select-kit-header.is-focused {
                 background-color: $background_color_dark !important;
-                background-image: url($background_image_dark);
-                background-repeat: repeat;
-                color: $light_alt
-                
+                background-image: url($background_image_dark) !important;
+                background-repeat: repeat !important;
+                color: $light_alt !important;
+                .fa {
+                    color: $light_alt !important;
+                }
             }
 
             .select-kit-body {

@@ -864,8 +864,10 @@ section#topic {
 
     ul.group-nav {
 
-        .group-dropdown {
-
+        .group-dropdown,
+        .group-dropdown.is-focused {
+            background-color: transparent !important;
+            
             .select-kit-header,
             .select-kit-header.is-focused {
                 background-color: $background_color_dark !important;

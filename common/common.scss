@@ -29,13 +29,15 @@ $success: #009900;              // Used to indicate an action was successful.
 $love: #ff1493;                 // The like button's color.
 
 // Custom Colors and Variables
-$a_color: #762123;
-$a_alt: #f4d03f;
-$a_alt2: #ffffff;
 $white: #ffffff;
 $off_white: #c4c4c4;
 $black: #000000;
 $light_alt: #f1e9d0;
+
+$a_color: #762123;
+$a_alt: #f4d03f;
+$a_alt2: #ffffff;
+$a_alt3: $light_alt;
 $xdark-brown: #221b16;
 $nav_pill_hover_color: #f4d03f;
 $nav_pill_active_color: #f4d03f;
@@ -689,9 +691,9 @@ section#topic {
     }
 
     a {
-        color: $a_alt2 !important;
+        color: $a_alt3 !important;
         &:hover {
-            color: $a_alt2 !important;
+            color: $a_alt3 !important;
         }
     }
 }

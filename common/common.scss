@@ -866,10 +866,6 @@ section#topic {
 
         .group-dropdown {
 
-            .select-kit-row a {
-                color: $light_alt !important;
-            }
-
             .select-kit-body {
 
                 .select-kit-collection {
@@ -884,6 +880,17 @@ section#topic {
                         &:before {
                             display: none !important;
                         }
+
+                        border-bottom: 1px solid $light_alt;
+
+                        &:last-of-type {
+                            border-bottom: 0px solid $light_alt;
+                        }
+
+                        span {
+                            color: $light_alt !important;
+                        }
+
                     }
 
                     a {

@@ -875,6 +875,20 @@ section#topic {
                     background-image: url($background_image_dark);
                     background-repeat: repeat;
 
+                    a {
+                        color: $light_alt !important;
+                        background-color: transparent !important;
+                    }
+                    .is-active {
+                        color: $a_alt !important;
+                        background-color: transparent !important;
+                    }
+                    
+                    .is-highlighted {
+                        background-color: $a_color !important;
+                        color: white !important;
+                    }
+
                 }
 
             }

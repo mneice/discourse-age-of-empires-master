@@ -859,10 +859,8 @@ section#topic {
     padding: 20px;
 
     .fps-result {
-        background-color: #442504;
-        //background-color: $background_color_dark !important;
-        //background-image: url($background_image_dark) !important;
-        color: $light_alt !important;
+        background-color: #f7f7f7 !important;
+        color: $black !important;
 
         .topic {
 
@@ -870,7 +868,7 @@ section#topic {
 
                 .topic-title {
 
-                    color: white !important;
+                    color: $a_color !important;
 
 
                 }

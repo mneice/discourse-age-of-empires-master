@@ -866,6 +866,14 @@ section#topic {
 
         .group-dropdown {
 
+            .select-kit-header {
+                background-color: $background_color_dark !important;
+                background-image: url($background_image_dark);
+                background-repeat: repeat;
+                color: $light_alt
+                
+            }
+
             .select-kit-body {
 
                 .select-kit-collection {

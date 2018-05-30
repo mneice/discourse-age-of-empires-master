@@ -395,7 +395,7 @@ header.d-header .d-header-icons .icon {
 
 }
 
-// list controls
+// navigation and list controls
 
 ul.nav {
   background-image: url($bkg-nav-brown);
@@ -494,6 +494,10 @@ ul.nav {
   border: none;
   overflow: hidden;
 
+}
+
+.modal .nav {
+  padding: 0 !important;
 }
 
 

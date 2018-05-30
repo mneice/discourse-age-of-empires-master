@@ -635,7 +635,7 @@ footer#aoe-footer {
 
     }
 
-    .rating {
+    .logo {
       display: inline-block;
       background-size: cover;
       background-repeat: repeat;
@@ -664,21 +664,29 @@ footer#aoe-footer {
     }
 
 
-    .esrb {
-      .rating {
-        width: 60px;
-        height: 81px;
-        background-image: url($ratingsymbol_t);
-      }
-      .info {
-
-        .location {
-
-        }
-      }
+    .esrb .logo {
+      width: 60px;
+      height: 81px;
+      background-image: url($ratingsymbol_t);
     }
 
+    .studios .logo {
+      width: 173px;
+      height: 53px;
+      background-image: url($studios-logo);
+    }
 
+    .usk .logo {
+      width: 53px;
+      height: 53px;
+      background-image: url($usk-12);
+    }
+
+    .pegi .logo {
+      width: 42px;
+      height: 53px;
+      background-image: url($pegi-12);
+    }
 
   }
 

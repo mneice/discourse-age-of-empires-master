@@ -813,7 +813,8 @@ section#topic {
     background-repeat: repeat !important;
 
     section,
-    div[itemprop] {
+    [itemscope],
+    [itemprop] {
         padding: 20px !important;
     }
 

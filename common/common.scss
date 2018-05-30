@@ -851,12 +851,18 @@ section#topic {
 }
 
 
-// Sections
+// Search
 .search-container {
     background-color: $content_container_background_color !important;
     background-image: url($content_container_background_image) !important;
     background-repeat: repeat !important;
     padding: 20px;
+
+    .fps-result {
+        background-color: #f7f7f7;
+    }
+
+
 }
 
 

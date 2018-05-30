@@ -868,15 +868,19 @@ section#topic {
 
             .select-kit-body {
 
-                background-color: $background_color_dark !important;
-                background-image: url($background_image_dark);
-                background-repeat: repeat;
+                .select-kit-collection {
 
+
+                    background-color: $background_color_dark !important;
+                    background-image: url($background_image_dark);
+                    background-repeat: repeat;
+
+                }
 
             }
 
         }
-        
+
 
     }
 

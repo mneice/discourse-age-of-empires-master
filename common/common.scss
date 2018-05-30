@@ -877,6 +877,13 @@ section#topic {
 
         }
 
+        .blurb {
+            color: $black !important;
+            .search-highlight {
+                color: $a_color !important;
+            }
+        }
+
     }
 
 

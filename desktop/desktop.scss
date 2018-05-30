@@ -420,7 +420,7 @@ ul.nav {
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 2 !important;
+      z-index: 1 !important;
     }
 
     &:after {
@@ -498,6 +498,9 @@ ul.nav {
 
 .modal .nav {
   padding: 0 !important;
+  li {
+    z-index: 1;
+  }
 }
 
 

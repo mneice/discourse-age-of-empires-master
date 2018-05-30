@@ -539,6 +539,16 @@ $section-divider-default: section-divider-default.png
 
 
 // footer.html
+// footer vars
+/**
+    $bkg-marble       --> marble background
+    $footer-logo      --> gold footer logo
+    $studios-logo     --> studios logo
+    $ratingsymbol_t   --> USA ESRB teen rating symbol
+    $pegi-12          --> Europe PEGI 12 rating symbol
+    $usk-12           --> Germany USK rating 12 symbol
+
+ */
 footer#aoe-footer {
   width: 100%;
   min-height: 15vw;

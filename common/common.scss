@@ -846,10 +846,10 @@ section#topic {
     .nav-pills {
         overflow: visible !important;
     }
-    .list-controls {
-        input {
-            //background-color: $list_controls_input_background_color !important;
-            //color: $list_controls_input_color !important;
-        }
+
+    .group-outlet input {
+        background-color: $list_controls_input_background_color !important;
+        color: $list_controls_input_color !important;
     }
+
 }

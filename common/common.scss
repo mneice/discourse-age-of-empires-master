@@ -840,3 +840,16 @@ section#topic {
         padding: 20px;
     }
 }
+
+// Group Moderators Page
+.container.group.moderators {
+    .nav-pills {
+        overflow: visible !important;
+    }
+    .list-controls {
+        input {
+            //background-color: $list_controls_input_background_color !important;
+            //color: $list_controls_input_color !important;
+        }
+    }
+}

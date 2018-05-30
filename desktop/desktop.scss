@@ -714,10 +714,9 @@ footer#aoe-footer {
 
   .footer-links.secondary {
     text-align: center !important;
-    color: white !important;
     font-family: Source Sans Pro,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif !important;
     font-size: 13px !important;
-    color: $footer_color;
+    color: $footer_color !important;
     ul {
       margin: 0 !important;
       display: block !important;

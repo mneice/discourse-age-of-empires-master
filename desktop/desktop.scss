@@ -1,4 +1,6 @@
 
+
+
 //add space between categories
 .topic-list.categories {
   border-spacing: 0 1em;
@@ -579,42 +581,42 @@ footer#aoe-footer {
 
   .footer-links.primary {
     // styles
-    .esrb {
-      // styles
-      color: white !important;
-      font-size: 11px;
-      .rating {
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        width: 60px;
-        height: 81px;
-        background-image: url($ratingsymbol_t);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: $black;
-        border: none;
-      }
-      .info {
-        display: inline-block;
-        margin: 0;
-        padding: 0 8px;
-        height: auto;
-        text-align: center;
-        span.location {
+    display: block;
+    width: 61.30208vw;
+    height: auto;
+    margin: 0 auto;
 
+
+    .flex-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: flex-start;
+
+
+      .flex-col {
+        flex: 0 1 auto;
+        width: 10%;
+        height: 250px;
+        background-color: dodgerblue;
+        padding: 10px;
+
+        &.social {
+          align-self: flex-end;
         }
-        ul {
-          display: inline-block;
-          margin: 0;
-          padding: 0;
 
-          li {
-            display: block;
-          }
+        .content {
+          width: 100%;
+          height: 100%;
+          background-color: deeppink;
         }
       }
+
     }
+
+
   }
 
   .footer-links.secondary {

@@ -867,7 +867,7 @@ section#topic {
         .group-dropdown,
         .group-dropdown.is-focused {
             background-color: transparent !important;
-            
+
             .select-kit-header,
             .select-kit-header.is-focused {
                 background-color: $background_color_dark !important;
@@ -928,5 +928,12 @@ section#topic {
 
 
     }
+
+
+    .group-activity-nav {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
 
 }

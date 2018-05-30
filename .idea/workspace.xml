@@ -26,11 +26,10 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="944" column="27" lean-forward="false" selection-start-line="944" selection-start-column="27" selection-end-line="944" selection-end-column="27" />
+            <state relative-caret-position="659">
+              <caret line="941" column="46" lean-forward="false" selection-start-line="941" selection-start-column="46" selection-end-line="941" selection-end-column="46" />
               <folding>
                 <element signature="e#19006#20885#0" expanded="false" />
-                <element signature="e#20914#21199#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -204,12 +203,12 @@
       <workItem from="1527011042592" duration="2473000" />
       <workItem from="1527281637390" duration="657000" />
       <workItem from="1527606942437" duration="8459000" />
-      <workItem from="1527699998707" duration="16062000" />
+      <workItem from="1527699998707" duration="16123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84730000" />
+    <option name="totallyTimeSpent" value="84791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -260,7 +259,6 @@
           <caret line="659" column="0" lean-forward="true" selection-start-line="659" selection-start-column="0" selection-end-line="659" selection-end-column="0" />
           <folding>
             <element signature="e#19006#20885#0" expanded="false" />
-            <element signature="e#20914#21199#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -642,11 +640,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="944" column="27" lean-forward="false" selection-start-line="944" selection-start-column="27" selection-end-line="944" selection-end-column="27" />
+        <state relative-caret-position="659">
+          <caret line="941" column="46" lean-forward="false" selection-start-line="941" selection-start-column="46" selection-end-line="941" selection-end-column="46" />
           <folding>
             <element signature="e#19006#20885#0" expanded="false" />
-            <element signature="e#20914#21199#0" expanded="false" />
           </folding>
         </state>
       </provider>

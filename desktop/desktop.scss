@@ -585,7 +585,7 @@ $section-divider-default: section-divider-default.png
     background-repeat: repeat;
 
     li {
-      flex: 1 0 auto;
+      flex: 0 1 auto;
 
       a {
         display: inline-block;

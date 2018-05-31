@@ -572,18 +572,29 @@ $section-divider-default: section-divider-default.png
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
 
+    position: relative;
     width: 1110px;
     max-width: 1110px;
     list-style: none;
     margin: 0 auto;
-    padding: 0;
-    //background-image: url($background_image_dark);
-    //background-repeat: repeat;
-    background-color: darkred;
+    padding: 5px 0 0 0;
+    background-image: url($background_image_dark);
+    background-repeat: repeat;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background-image: url($bkg-nav-gold-bar-top);
+      background-repeat: repeat-x;
+    }
 
     li {
       flex: 0 1 auto;

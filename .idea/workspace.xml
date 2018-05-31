@@ -49,8 +49,8 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="590" column="9" lean-forward="true" selection-start-line="590" selection-start-column="9" selection-end-line="590" selection-end-column="9" />
+            <state relative-caret-position="429">
+              <caret line="597" column="26" lean-forward="true" selection-start-line="597" selection-start-column="26" selection-end-line="597" selection-end-column="26" />
               <folding>
                 <element signature="e#11791#11822#0" expanded="false" />
                 <element signature="e#11844#12174#0" expanded="false" />
@@ -218,12 +218,12 @@
       <workItem from="1527606942437" duration="8459000" />
       <workItem from="1527699998707" duration="20114000" />
       <workItem from="1527785058754" duration="2656000" />
-      <workItem from="1527807338880" duration="2082000" />
+      <workItem from="1527807338880" duration="2123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93520000" />
+    <option name="totallyTimeSpent" value="93561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -653,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="590" column="9" lean-forward="true" selection-start-line="590" selection-start-column="9" selection-end-line="590" selection-end-column="9" />
+        <state relative-caret-position="429">
+          <caret line="597" column="26" lean-forward="true" selection-start-line="597" selection-start-column="26" selection-end-line="597" selection-end-column="26" />
           <folding>
             <element signature="e#11791#11822#0" expanded="false" />
             <element signature="e#11844#12174#0" expanded="false" />

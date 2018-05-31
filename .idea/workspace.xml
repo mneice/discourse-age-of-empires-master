@@ -16,7 +16,7 @@
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AgeOfEmpires2017/wp-content/themes/msgpwebteam/assets/styles/common/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
+            <state relative-caret-position="0">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
@@ -49,8 +49,8 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="568" column="21" lean-forward="false" selection-start-line="568" selection-start-column="21" selection-end-line="568" selection-end-column="21" />
+            <state relative-caret-position="-115">
+              <caret line="620" column="25" lean-forward="false" selection-start-line="620" selection-start-column="25" selection-end-line="620" selection-end-column="25" />
               <folding>
                 <element signature="e#11791#11822#0" expanded="false" />
                 <element signature="e#11844#12174#0" expanded="false" />
@@ -58,11 +58,11 @@
                 <element signature="e#12529#12584#0" expanded="false" />
                 <element signature="e#12641#12703#0" expanded="false" />
                 <element signature="e#13350#13517#0" expanded="false" />
-                <element signature="e#14970#18858#0" expanded="false" />
-                <element signature="e#15368#15728#0" expanded="false" />
-                <element signature="e#16517#16616#0" expanded="false" />
-                <element signature="e#16627#16943#0" expanded="false" />
-                <element signature="e#18898#19428#0" expanded="false" />
+                <element signature="e#15738#19626#0" expanded="false" />
+                <element signature="e#16136#16496#0" expanded="false" />
+                <element signature="e#17285#17384#0" expanded="false" />
+                <element signature="e#17395#17711#0" expanded="false" />
+                <element signature="e#19666#20196#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -84,7 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$aoe_</find>
       <find>create-topic</find>
       <find>background</find>
       <find>active</find>
@@ -105,7 +104,6 @@
       <find>e5</find>
       <find>e5d194</find>
       <find>$texture-papyrus</find>
-      <find>nav</find>
       <find>$content_body_page_background_color</find>
       <find>nav-pills</find>
       <find>list</find>
@@ -114,6 +112,8 @@
       <find>stacked</find>
       <find>rock</find>
       <find>f1e9d0</find>
+      <find>nav</find>
+      <find>gulp</find>
     </findStrings>
     <replaceStrings>
       <replace>$aoe_love</replace>
@@ -218,12 +218,12 @@
       <workItem from="1527606942437" duration="8459000" />
       <workItem from="1527699998707" duration="20114000" />
       <workItem from="1527785058754" duration="2656000" />
-      <workItem from="1527807338880" duration="2609000" />
+      <workItem from="1527807338880" duration="3483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94047000" />
+    <option name="totallyTimeSpent" value="94921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -260,17 +260,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11880">
-          <caret line="659" column="0" lean-forward="true" selection-start-line="659" selection-start-column="0" selection-end-line="659" selection-end-column="0" />
-          <folding>
-            <element signature="e#19113#19269#0" expanded="false" />
-            <element signature="e#19753#21632#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AgeOfEmpires2017/wp-content/themes/msgpwebteam/assets/styles/common/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -305,11 +294,11 @@
             <element signature="e#12529#12584#0" expanded="false" />
             <element signature="e#12641#12703#0" expanded="false" />
             <element signature="e#13350#13517#0" expanded="false" />
-            <element signature="e#14970#18858#0" expanded="false" />
-            <element signature="e#15368#15728#0" expanded="false" />
-            <element signature="e#16517#16616#0" expanded="false" />
-            <element signature="e#16627#16943#0" expanded="false" />
-            <element signature="e#18898#19428#0" expanded="false" />
+            <element signature="e#15738#19626#0" expanded="false" />
+            <element signature="e#16136#16496#0" expanded="false" />
+            <element signature="e#17285#17384#0" expanded="false" />
+            <element signature="e#17395#17711#0" expanded="false" />
+            <element signature="e#19666#20196#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -341,11 +330,11 @@
             <element signature="e#12529#12584#0" expanded="false" />
             <element signature="e#12641#12703#0" expanded="false" />
             <element signature="e#13350#13517#0" expanded="false" />
-            <element signature="e#14970#18858#0" expanded="false" />
-            <element signature="e#15368#15728#0" expanded="false" />
-            <element signature="e#16517#16616#0" expanded="false" />
-            <element signature="e#16627#16943#0" expanded="false" />
-            <element signature="e#18898#19428#0" expanded="false" />
+            <element signature="e#15738#19626#0" expanded="false" />
+            <element signature="e#16136#16496#0" expanded="false" />
+            <element signature="e#17285#17384#0" expanded="false" />
+            <element signature="e#17395#17711#0" expanded="false" />
+            <element signature="e#19666#20196#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -429,11 +418,11 @@
             <element signature="e#12529#12584#0" expanded="false" />
             <element signature="e#12641#12703#0" expanded="false" />
             <element signature="e#13350#13517#0" expanded="false" />
-            <element signature="e#14970#18858#0" expanded="false" />
-            <element signature="e#15368#15728#0" expanded="false" />
-            <element signature="e#16517#16616#0" expanded="false" />
-            <element signature="e#16627#16943#0" expanded="false" />
-            <element signature="e#18898#19428#0" expanded="false" />
+            <element signature="e#15738#19626#0" expanded="false" />
+            <element signature="e#16136#16496#0" expanded="false" />
+            <element signature="e#17285#17384#0" expanded="false" />
+            <element signature="e#17395#17711#0" expanded="false" />
+            <element signature="e#19666#20196#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -472,11 +461,11 @@
             <element signature="e#12529#12584#0" expanded="false" />
             <element signature="e#12641#12703#0" expanded="false" />
             <element signature="e#13350#13517#0" expanded="false" />
-            <element signature="e#14970#18858#0" expanded="false" />
-            <element signature="e#15368#15728#0" expanded="false" />
-            <element signature="e#16517#16616#0" expanded="false" />
-            <element signature="e#16627#16943#0" expanded="false" />
-            <element signature="e#18898#19428#0" expanded="false" />
+            <element signature="e#15738#19626#0" expanded="false" />
+            <element signature="e#16136#16496#0" expanded="false" />
+            <element signature="e#17285#17384#0" expanded="false" />
+            <element signature="e#17395#17711#0" expanded="false" />
+            <element signature="e#19666#20196#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -508,11 +497,11 @@
             <element signature="e#12529#12584#0" expanded="false" />
             <element signature="e#12641#12703#0" expanded="false" />
             <element signature="e#13350#13517#0" expanded="false" />
-            <element signature="e#14970#18858#0" expanded="false" />
-            <element signature="e#15368#15728#0" expanded="false" />
-            <element signature="e#16517#16616#0" expanded="false" />
-            <element signature="e#16627#16943#0" expanded="false" />
-            <element signature="e#18898#19428#0" expanded="false" />
+            <element signature="e#15738#19626#0" expanded="false" />
+            <element signature="e#16136#16496#0" expanded="false" />
+            <element signature="e#17285#17384#0" expanded="false" />
+            <element signature="e#17395#17711#0" expanded="false" />
+            <element signature="e#19666#20196#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -602,7 +591,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../AgeOfEmpires2017/wp-content/themes/msgpwebteam/assets/styles/common/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
+        <state relative-caret-position="0">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
@@ -651,10 +640,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/ReCore/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="568" column="21" lean-forward="false" selection-start-line="568" selection-start-column="21" selection-end-line="568" selection-end-column="21" />
+        <state relative-caret-position="-115">
+          <caret line="620" column="25" lean-forward="false" selection-start-line="620" selection-start-column="25" selection-end-line="620" selection-end-column="25" />
           <folding>
             <element signature="e#11791#11822#0" expanded="false" />
             <element signature="e#11844#12174#0" expanded="false" />
@@ -662,11 +659,11 @@
             <element signature="e#12529#12584#0" expanded="false" />
             <element signature="e#12641#12703#0" expanded="false" />
             <element signature="e#13350#13517#0" expanded="false" />
-            <element signature="e#14970#18858#0" expanded="false" />
-            <element signature="e#15368#15728#0" expanded="false" />
-            <element signature="e#16517#16616#0" expanded="false" />
-            <element signature="e#16627#16943#0" expanded="false" />
-            <element signature="e#18898#19428#0" expanded="false" />
+            <element signature="e#15738#19626#0" expanded="false" />
+            <element signature="e#16136#16496#0" expanded="false" />
+            <element signature="e#17285#17384#0" expanded="false" />
+            <element signature="e#17395#17711#0" expanded="false" />
+            <element signature="e#19666#20196#0" expanded="false" />
           </folding>
         </state>
       </provider>

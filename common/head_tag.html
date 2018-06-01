@@ -4,13 +4,13 @@
 
     function mainMenuDesktop(){
 
-        var mainMenuDesktop = $('#main-menu-desktop').html();
+        var mainMenuDesktop = $('#main-menu-desktop');
         $('#main-menu-desktop').remove();
         $( 'section#main header' ).append(mainMenuDesktop);
 
 
     }
-    
+
     $(document).ready(function(){
 
         mainMenuDesktop();

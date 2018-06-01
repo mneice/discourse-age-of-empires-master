@@ -607,17 +607,6 @@ $section-divider-default: section-divider-default.png
       padding: 0 0 0 5px;
       position: relative;
       text-align: center;
-      &:last-of-type {
-        flex: 1 1 auto;
-        padding: 0 0 0 0;
-        width: 229px;
-        height: 43px;
-        overflow: hidden;
-        background-image: url($header_btn);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-      }
 
       &::before {
         content: "";
@@ -630,10 +619,26 @@ $section-divider-default: section-divider-default.png
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
-        &:last-of-type {
+      }
+
+      &#buy-now {
+        flex: 1 1 auto;
+        padding: 0 0 0 0;
+        width: 229px;
+        height: 43px;
+        overflow: hidden;
+        background-image: url($header_btn);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        &::before {
           display: none;
         }
+
       }
+
+
 
 
       a {

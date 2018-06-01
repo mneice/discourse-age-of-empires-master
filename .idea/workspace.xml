@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/common/common.scss" afterPath="$PROJECT_DIR$/common/common.scss" />
-      <change beforePath="$PROJECT_DIR$/common/header.html" afterPath="$PROJECT_DIR$/common/header.html" />
-      <change beforePath="$PROJECT_DIR$/desktop/desktop.scss" afterPath="$PROJECT_DIR$/desktop/desktop.scss" />
+      <change beforePath="$PROJECT_DIR$/mobile/mobile.scss" afterPath="$PROJECT_DIR$/mobile/mobile.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="637" column="34" lean-forward="false" selection-start-line="637" selection-start-column="34" selection-end-line="637" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="562" column="0" lean-forward="false" selection-start-line="562" selection-start-column="0" selection-end-line="562" selection-end-column="18" />
               <folding>
                 <element signature="e#11791#11822#0" expanded="false" />
                 <element signature="e#11844#12174#0" expanded="false" />
@@ -66,6 +64,16 @@
                 <element signature="e#17711#18027#0" expanded="false" />
                 <element signature="e#19982#20512#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobile.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/mobile.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +122,8 @@
       <find>rock</find>
       <find>gulp</find>
       <find>&lt;li&gt;&lt;a</find>
-      <find>nav</find>
       <find>f1e9d0</find>
+      <find>nav</find>
     </findStrings>
     <replaceStrings>
       <replace>$aoe_love</replace>
@@ -143,6 +151,7 @@
         <option value="$PROJECT_DIR$/common/header.html" />
         <option value="$PROJECT_DIR$/common/common.scss" />
         <option value="$PROJECT_DIR$/desktop/desktop.scss" />
+        <option value="$PROJECT_DIR$/mobile/mobile.scss" />
       </list>
     </option>
   </component>
@@ -221,12 +230,12 @@
       <workItem from="1527606942437" duration="8459000" />
       <workItem from="1527699998707" duration="20114000" />
       <workItem from="1527785058754" duration="2656000" />
-      <workItem from="1527807338880" duration="6594000" />
+      <workItem from="1527807338880" duration="6749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98032000" />
+    <option name="totallyTimeSpent" value="98187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -569,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Ori/wp-content/themes/ori/assets/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -653,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="637" column="34" lean-forward="false" selection-start-line="637" selection-start-column="34" selection-end-line="637" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="562" column="0" lean-forward="false" selection-start-line="562" selection-start-column="0" selection-end-line="562" selection-end-column="18" />
           <folding>
             <element signature="e#11791#11822#0" expanded="false" />
             <element signature="e#11844#12174#0" expanded="false" />
@@ -668,6 +670,14 @@
             <element signature="e#17711#18027#0" expanded="false" />
             <element signature="e#19982#20512#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

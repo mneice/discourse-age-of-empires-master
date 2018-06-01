@@ -597,40 +597,41 @@ $section-divider-default: section-divider-default.png
     max-width: 1110px;
     list-style: none;
     margin: 0 auto;
-    padding: 0 0 0 5px;  // 5px padding is for the left divider
+    padding: 0;
     background-image: url($background_image_dark);
     background-repeat: repeat;
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 5px;
-      height: 29px;
-      background-image: url($bkg-nav-gold-divider);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: top center;
-    }
-
 
     li {
-      flex: 0 1 auto;
-      padding: 0 5px 0 0;
+      flex: 1 0 auto;
+      padding: 0 0 0 5px;
       position: relative;
+      &:last-of-type {
+        flex: 1 1 auto;
+        padding: 0 0 0 0;
+        width: 229px;
+        height: 43px;
+        overflow: hidden;
+        background-image: url($header_btn);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
 
       &::before {
         content: "";
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         width: 5px;
         height: 29px;
         background-image: url($bkg-nav-gold-divider);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
+        &:last-of-type {
+          display: none;
+        }
       }
 
 
@@ -641,7 +642,7 @@ $section-divider-default: section-divider-default.png
         font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
         font-weight: 400;
         font-size: 14px;
-        line-height: 32px;
+        line-height: 43px;
         text-transform: uppercase;
       }
 

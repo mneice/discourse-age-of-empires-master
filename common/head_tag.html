@@ -2,19 +2,19 @@
 
 <script type="text/javascript">
 
+    function mainMenuDesktop(){
 
-    function myTest(){
-        alert('my test... also works!');
+        var mainMenuDesktop = $('#main-menu-desktop').html();
+        $('#main-menu-desktop').remove();
+        $( 'section#main header' ).append(mainMenuDesktop);
+
+
     }
-
-
-    alert('initial test... works.');
-
+    
     $(document).ready(function(){
 
-        alert('my test pre function for jquery... works, too!');
-
-        myTest();
+        mainMenuDesktop();
 
     });
+
 </script>

@@ -368,6 +368,7 @@ header.d-header .d-header-icons .icon {
 
 
 #main-outlet.wrap {
+  // need this to offset the spacing from the header and header menu which is inserted via JavaScript.
   padding-top: 125px !important;
 }
 

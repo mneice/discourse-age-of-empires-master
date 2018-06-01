@@ -627,7 +627,7 @@ $section-divider-default: section-divider-default.png
 
       &#buy-now {
         flex: 1 1 auto;
-        padding: 4px 0 0 0;
+        padding: 0 0 0 0;
         width: 229px;
         height: 43px;
         overflow: hidden;
@@ -638,6 +638,10 @@ $section-divider-default: section-divider-default.png
 
         &::before {
           display: none;
+        }
+
+        a {
+          margin-top: 4px;
         }
 
       }

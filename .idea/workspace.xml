@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/common/body_tag.html" afterPath="$PROJECT_DIR$/common/body_tag.html" />
+      <change beforePath="$PROJECT_DIR$/common/head_tag.html" afterPath="$PROJECT_DIR$/common/head_tag.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,21 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body_tag.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="body_tag.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/body_tag.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="80" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head_tag.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head_tag.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/head_tag.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="99">
+              <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -186,8 +187,8 @@
         <option value="$PROJECT_DIR$/desktop/desktop.scss" />
         <option value="$PROJECT_DIR$/common/after_header.html" />
         <option value="$PROJECT_DIR$/common/footer.html" />
-        <option value="$PROJECT_DIR$/common/head_tag.html" />
         <option value="$PROJECT_DIR$/common/body_tag.html" />
+        <option value="$PROJECT_DIR$/common/head_tag.html" />
       </list>
     </option>
   </component>
@@ -268,12 +269,12 @@
       <workItem from="1527785058754" duration="2656000" />
       <workItem from="1527807338880" duration="6803000" />
       <workItem from="1527867951898" duration="2785000" />
-      <workItem from="1527885853049" duration="3120000" />
+      <workItem from="1527885853049" duration="3233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104146000" />
+    <option name="totallyTimeSpent" value="104259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -705,14 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/head_tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/after_header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -726,7 +719,15 @@
     <entry file="file://$PROJECT_DIR$/common/body_tag.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="80" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/head_tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
           <folding />
         </state>
       </provider>

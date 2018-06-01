@@ -350,12 +350,14 @@ header.d-header {
   background-position: center center;
   background-repeat: no-repeat;
 
+  /*
   &::after {
     content: '';
     background: linear-gradient(180deg,#644227,#785e2e,#9a843a,#d2be5e,#030004);
     height: 5px;
     width: 100%;
   }
+  */
 
 }
 

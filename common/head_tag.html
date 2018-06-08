@@ -17,4 +17,40 @@
 
     });
 
+
+
+
+    function footerPadding(){
+
+        // variables
+        var footer = $('footer#aoe-footer');
+
+        var footerOffset = footer.offset().top;
+        var footerHeight = footer.height();
+        var documentHeight = $( document ).height();
+
+        console.log('footerOffset = ' + footerOffset);
+        console.log('footerHeight = ' + footerHeight);
+        console.log('documentHeight = ' + documentHeight);
+
+    }
+
+
+    // After DOM elements are loaded
+    $(document).ready(function(){
+
+        // if element exists
+        if ($('footer#aoe-footer').length > 0) {
+
+            // heroHeader
+            footerPadding();
+
+            $(window).resize(footerPadding);
+
+        }
+
+    });
+
+
+
 </script>

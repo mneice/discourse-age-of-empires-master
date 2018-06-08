@@ -34,15 +34,10 @@
         var documentHeight = $( document ).height();
         var footerTotal = (footerOffset + footerHeight).toFixed(0);
 
-        console.log('footerOffset = ' + footerOffset);
-        console.log('footerHeight = ' + footerHeight);
-        console.log('documentHeight = ' + documentHeight);
-        console.log('footerTotal = ' + footerTotal);
-
+        // do we need a little margin
         if(documentHeight > footerTotal){
             var footerMargin = documentHeight - footerTotal;
             footer.css('margin-top',footerMargin);
-            console.log('footerMargin = ' + footerMargin);
         }
 
     }

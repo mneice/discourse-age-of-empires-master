@@ -28,10 +28,12 @@
         var footerOffset = footer.offset().top;
         var footerHeight = footer.outerHeight();
         var documentHeight = $( document ).height();
+        var footerTotal = (footerOffset + footerHeight).toFixed(0);
 
         console.log('footerOffset = ' + footerOffset);
         console.log('footerHeight = ' + footerHeight);
         console.log('documentHeight = ' + documentHeight);
+        console.log('footerTotal = ' + footerTotal);
 
     }
 

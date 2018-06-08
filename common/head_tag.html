@@ -22,18 +22,28 @@
 
     function footerPadding(){
 
-        // variables
+        // footer element
         var footer = $('footer#aoe-footer');
 
+        // remove any inline css for footer
+        footer.css('margin-top','');
+
+        // variables
         var footerOffset = footer.offset().top;
         var footerHeight = footer.outerHeight();
         var documentHeight = $( document ).height();
         var footerTotal = (footerOffset + footerHeight).toFixed(0);
 
-        console.log('footerOffset = ' + footerOffset);
-        console.log('footerHeight = ' + footerHeight);
-        console.log('documentHeight = ' + documentHeight);
-        console.log('footerTotal = ' + footerTotal);
+        //console.log('footerOffset = ' + footerOffset);
+        //console.log('footerHeight = ' + footerHeight);
+        //console.log('documentHeight = ' + documentHeight);
+        //console.log('footerTotal = ' + footerTotal);
+
+        if(documentHeight > footerTotal){
+            var footerMargin = documentHeight - footerTotal;
+            footer.css('margin-top',footerMargin);
+            //console.log('footerMargin = ' + footerMargin);
+        }
 
     }
 
@@ -41,12 +51,10 @@
     // After DOM elements are loaded
     $(document).ready(function(){
 
-        // if element exists
+        // if footer exists
         if ($('footer#aoe-footer').length > 0) {
 
-            // heroHeader
             footerPadding();
-
             $(window).resize(footerPadding);
 
         }

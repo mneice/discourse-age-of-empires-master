@@ -2,6 +2,13 @@
 // following import url is good for dev and prod
 @import url("https://use.typekit.net/ced7snk.css");
 
+html {
+    background-color: #442504 !important;
+    background-image: url($bkg-rock-01) !important;
+    background-position: top center;
+    background-repeat: repeat;
+}
+
 
 //use Roboto font
 html {
@@ -527,6 +534,9 @@ input,
 // --------------------------------------------------
 // CUSTOM STYLES for HTML elements
 // --------------------------------------------------
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: trajan-pro-3,serif !important;

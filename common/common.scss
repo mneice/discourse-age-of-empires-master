@@ -1009,6 +1009,11 @@ section#topic {
     display: none !important;
 }
 
+// Menu Panel
+.menu-panel.drop-down {
+    color: $black !important;
+}
+
 // Hover States
 .notifications li:hover {
     background-color: $is_highlighted_bkg !important;

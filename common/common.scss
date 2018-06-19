@@ -492,7 +492,8 @@ input,
     // More select kit stuff
 .select-kit .select-kit-row.is-selected {
     background-color: $xdark-brown;
-    color: #f4d03f;
+    color: #f4d03f !important;
+    * {color: #f4d03f !important;}
 
 }
 

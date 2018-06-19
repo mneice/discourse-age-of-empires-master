@@ -27,10 +27,6 @@ $danger: #990000;               // Highlight color for actions like deleting pos
 $success: #009900;              // Used to indicate an action was successful.
 $love: #ff1493;                 // The like button's color.
 
-// *******************************************************
-// Additional CUSTOM STYLING
-// *******************************************************
-$highlight-medium: #762123;
 
 // Custom Colors and Variables
 $white: #ffffff;
@@ -491,6 +487,13 @@ input,
     // Input setting description
 .settings .setting .desc {
     color: $input_description_color;
+}
+
+    // More select kit stuff
+.select-kit .select-kit-row.is-selected {
+    background-color: $xdark-brown;
+    color: #f4d03f;
+
 }
 
 

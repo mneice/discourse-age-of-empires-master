@@ -502,6 +502,14 @@ input,
     color: #f4d03f;
 }
 
+.controls .select-kit-body .select-kit-collection .select-kit-row.category-row.is-highlighted {
+    background-color: $is_highlighted_bkg !important;
+    color: $is_highlighted_color !important;
+    *{color: $is_highlighted_color !important;}
+}
+
+
+
 
 
 

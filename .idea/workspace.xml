@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87e56a9e-cfec-49ba-bade-7b877e50c93a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/common/common.scss" afterPath="$PROJECT_DIR$/common/common.scss" />
+      <change beforePath="$PROJECT_DIR$/mobile/mobile.scss" afterPath="$PROJECT_DIR$/mobile/mobile.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="393">
+              <caret line="1084" column="17" lean-forward="false" selection-start-line="1084" selection-start-column="17" selection-end-line="1084" selection-end-column="17" />
               <folding>
                 <element signature="e#10192#10426#0" expanded="false" />
                 <element signature="e#10482#10568#0" expanded="false" />
@@ -49,8 +50,8 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="336" column="0" lean-forward="false" selection-start-line="336" selection-start-column="0" selection-end-line="341" selection-end-column="1" />
+            <state relative-caret-position="5686">
+              <caret line="333" column="0" lean-forward="true" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
               <folding>
                 <element signature="e#11977#12008#0" expanded="false" />
                 <element signature="e#12030#12360#0" expanded="false" />
@@ -71,8 +72,8 @@
       <file leaf-file-name="mobile.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="2673">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,7 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>f4d03f</find>
       <find>762123</find>
       <find>bkg-nav-</find>
       <find>widget</find>
@@ -110,8 +110,9 @@
       <find>header</find>
       <find>kit</find>
       <find>$bkg-rock</find>
-      <find>rock</find>
       <find>html</find>
+      <find>rock</find>
+      <find>badge</find>
     </findStrings>
     <replaceStrings>
       <replace>$aoe_love</replace>
@@ -141,8 +142,8 @@
         <option value="$PROJECT_DIR$/common/after_header.html" />
         <option value="$PROJECT_DIR$/common/head_tag.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/mobile/mobile.scss" />
         <option value="$PROJECT_DIR$/desktop/desktop.scss" />
+        <option value="$PROJECT_DIR$/mobile/mobile.scss" />
         <option value="$PROJECT_DIR$/common/common.scss" />
       </list>
     </option>
@@ -229,12 +230,12 @@
       <workItem from="1528492279347" duration="3804000" />
       <workItem from="1528651452334" duration="13000" />
       <workItem from="1529429261592" duration="212000" />
-      <workItem from="1529432248672" duration="9528000" />
+      <workItem from="1529432248672" duration="10255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121265000" />
+    <option name="totallyTimeSpent" value="121992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -632,16 +633,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2673">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="336" column="0" lean-forward="false" selection-start-line="336" selection-start-column="0" selection-end-line="341" selection-end-column="1" />
+        <state relative-caret-position="5686">
+          <caret line="333" column="0" lean-forward="true" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
           <folding>
             <element signature="e#11977#12008#0" expanded="false" />
             <element signature="e#12030#12360#0" expanded="false" />
@@ -660,8 +661,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="393">
+          <caret line="1084" column="17" lean-forward="false" selection-start-line="1084" selection-start-column="17" selection-end-line="1084" selection-end-column="17" />
           <folding>
             <element signature="e#10192#10426#0" expanded="false" />
             <element signature="e#10482#10568#0" expanded="false" />

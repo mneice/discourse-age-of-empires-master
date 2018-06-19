@@ -27,6 +27,11 @@ $danger: #990000;               // Highlight color for actions like deleting pos
 $success: #009900;              // Used to indicate an action was successful.
 $love: #ff1493;                 // The like button's color.
 
+// *******************************************************
+// Additional CUSTOM STYLING
+// *******************************************************
+$highlight-medium: #762123;
+
 // Custom Colors and Variables
 $white: #ffffff;
 $off_white: #c4c4c4;
@@ -1015,8 +1020,8 @@ section#topic {
 }
 
 .menu-links-header a:hover {
-    background-color: $is_highlighted_bkg !important;
-    color: $is_highlighted_color !important;
+    //background-color: $is_highlighted_bkg !important;
+    //color: $is_highlighted_color !important;
 }
 
 // Hover States

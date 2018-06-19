@@ -1021,7 +1021,12 @@ section#topic {
         color: $black !important;
         &:hover {
             background-color: $is_highlighted_bkg !important;
+        }
+        &:hover {
             color: $is_highlighted_color !important;
+            li, a, i {
+                color: $is_highlighted_color !important;
+            }
         }
     }
 

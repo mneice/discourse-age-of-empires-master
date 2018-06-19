@@ -15,8 +15,9 @@ body input, body button, body select, body textarea {
 body {
     background-color: #442504 !important;
     background-image: url($bkg-rock-01) !important;
-    background-position: top center;
-    background-repeat: repeat;
+    background-position: top center !important;
+    background-repeat: repeat !important;
+    background-size: auto !important;
 }
 
 

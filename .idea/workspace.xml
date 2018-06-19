@@ -26,16 +26,16 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="904" column="18" lean-forward="false" selection-start-line="904" selection-start-column="18" selection-end-line="904" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#16008#16969#0" expanded="false" />
-                <element signature="e#16996#18161#0" expanded="false" />
-                <element signature="e#18204#18487#0" expanded="false" />
-                <element signature="e#18852#19567#0" expanded="false" />
-                <element signature="e#19244#19400#0" expanded="false" />
-                <element signature="e#19867#22452#0" expanded="false" />
-                <element signature="e#20139#22018#0" expanded="false" />
+                <element signature="e#15899#16860#0" expanded="false" />
+                <element signature="e#16887#18052#0" expanded="false" />
+                <element signature="e#18095#18378#0" expanded="false" />
+                <element signature="e#18743#19458#0" expanded="false" />
+                <element signature="e#19135#19291#0" expanded="false" />
+                <element signature="e#19758#22343#0" expanded="false" />
+                <element signature="e#20030#21909#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -246,12 +246,12 @@
       <workItem from="1528492279347" duration="3804000" />
       <workItem from="1528651452334" duration="13000" />
       <workItem from="1529429261592" duration="212000" />
-      <workItem from="1529432248672" duration="1290000" />
+      <workItem from="1529432248672" duration="1522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113027000" />
+    <option name="totallyTimeSpent" value="113259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -584,14 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ori2018/wp-content/themes/ori/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -674,18 +666,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="904" column="18" lean-forward="false" selection-start-line="904" selection-start-column="18" selection-end-line="904" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16008#16969#0" expanded="false" />
-            <element signature="e#16996#18161#0" expanded="false" />
-            <element signature="e#18204#18487#0" expanded="false" />
-            <element signature="e#18852#19567#0" expanded="false" />
-            <element signature="e#19244#19400#0" expanded="false" />
-            <element signature="e#19867#22452#0" expanded="false" />
-            <element signature="e#20139#22018#0" expanded="false" />
+            <element signature="e#15899#16860#0" expanded="false" />
+            <element signature="e#16887#18052#0" expanded="false" />
+            <element signature="e#18095#18378#0" expanded="false" />
+            <element signature="e#18743#19458#0" expanded="false" />
+            <element signature="e#19135#19291#0" expanded="false" />
+            <element signature="e#19758#22343#0" expanded="false" />
+            <element signature="e#20030#21909#0" expanded="false" />
           </folding>
         </state>
       </provider>

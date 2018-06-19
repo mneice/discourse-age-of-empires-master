@@ -1032,14 +1032,13 @@ section#topic {
 
 
 // Hover States
-/*
+
 .notifications li:hover {
     background-color: $is_highlighted_bkg !important;
     color: $is_highlighted_color !important;
-    a {
-        color: $is_highlighted_color !important;
-    }
+    *{color: $is_highlighted_color !important;}
+
 }
-*/
+
 
 

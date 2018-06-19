@@ -1013,6 +1013,9 @@ section#topic {
 .notifications li:hover {
     background-color: $is_highlighted_bkg !important;
     color: $is_highlighted_color !important;
+    a {
+        color: $is_highlighted_color !important;
+    }
 }
 
 

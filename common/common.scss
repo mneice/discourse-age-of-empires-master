@@ -1017,14 +1017,14 @@ section#topic {
 // Menu Panel
 .menu-panel.drop-down {
     color: $black !important;
-    li, a, i {
+    li, a, i, span {
         color: $black !important;
         &:hover {
             background-color: $is_highlighted_bkg !important;
         }
         &:hover {
             color: $is_highlighted_color !important;
-            li, a, i {
+            li, a, i, span {
                 color: $is_highlighted_color !important;
             }
         }
